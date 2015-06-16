@@ -2,7 +2,6 @@
 
 #import "UUActionSheet.h"
 #import "UUAlert.h"
-#import "UUAwsS3Client.h"
 #import "UUCameraView.h"
 #import "UUColor.h"
 #import "UUCoreData.h"
@@ -11,7 +10,6 @@
 #import "UUDebug.h"
 #import "UUDevice.h"
 #import "UUDictionary.h"
-#import "UUDropbox.h"
 #import "UUFlickr.h"
 #import "UUHttpClient.h"
 #import "UUHttpResponseHandler.h"
