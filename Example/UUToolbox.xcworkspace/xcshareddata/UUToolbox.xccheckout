@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>647F02CB-549D-4C53-976F-5A6212B6E583</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UUToolbox</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2384B64C04357C4907ABB2DA7CA3952BE88E29B4</key>
+		<string>https://github.com/ChefsFeed/toolbox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/UUToolbox.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2384B64C04357C4907ABB2DA7CA3952BE88E29B4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ChefsFeed/toolbox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2384B64C04357C4907ABB2DA7CA3952BE88E29B4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2384B64C04357C4907ABB2DA7CA3952BE88E29B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>toolbox</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,559 +7,559 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00562ADD97E79B309C9DC83B /* UUObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6579D3DFB207D6F1DA0159F9 /* UUObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0095F6FC4E7CFD84358DDD4C /* UUCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39896FAC96FF389D98A2CF6B /* UUCameraView.m */; };
-		02343E63A7F3B440011B4538 /* UUView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D6A0C7C5F4BF5B6BB193DC /* UUView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02709F4427A7BCDA0AC622ED /* UUHttpSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 091414DF7035F611603E41C3 /* UUHttpSession.m */; };
-		0406734A214030DC982D3EC2 /* UUImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0013EA82FAB5F35F63B81E05 /* UUImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04799DE241F31C539AA8EEE5 /* UUOpenALSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A32AEEFFA72127285DB1FF9F /* UUOpenALSoundManager.m */; };
-		04E00DA82296241085C04B2F /* UUMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4D7CFAF46F904A08A9FDC1 /* UUMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		053706F0611DA35887F13868 /* UUImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F05DDCFDA5216B3321F599A /* UUImageCache.m */; };
-		057E08CB16BFB61974093B7F /* UUHttpResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8319C07F6934C3CE9D8C4919 /* UUHttpResponseHandler.m */; };
-		093D4C8DC84D3831ECDC5912 /* Pods-UUToolbox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF0DDD9D51EB3E16A33BA84 /* Pods-UUToolbox_Tests-dummy.m */; };
-		09DEBE6F6F950E73A28AACCE /* UUTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F924AC02EE7828AA7D23D /* UUTextField.m */; };
-		0BA406411746D0E7DEC1CF29 /* UULocation.h in Headers */ = {isa = PBXBuildFile; fileRef = A776552D351C06791A870D5D /* UULocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BBADCB531E798DBC959B983 /* UUActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F7DA3F52085357950792EB /* UUActionSheet.m */; };
-		0D7C693F323CB22ADD9B621D /* UURemoteData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8745E2AFC9B0BD211380D08E /* UURemoteData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10BD80B1A51DC36125ACA077 /* UUImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE03E29013109A48C236A7E /* UUImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10C5E59A6879E8726291263E /* UUDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A83B74151B8C3550CFA327 /* UUDataCache.m */; };
-		1234B16C8CFDD21A97202C67 /* UUDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A83B74151B8C3550CFA327 /* UUDataCache.m */; };
-		12ED76788B3DF5972416F63B /* UUHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 624CC07466B015B8567AC4DE /* UUHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1303D1E8DA7DB53B49B79888 /* UUObjectFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3807BAB47BFDCBB2CEEC73 /* UUObjectFactory.m */; };
-		147DEB4314D2347ECD31CA44 /* UULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCBB9F99AA07F4BF333D98 /* UULocationManager.m */; };
-		1774948D295521AC1B7DB178 /* UUOpenALSoundManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D3F7F572B3C7392E1DC140ED /* UUOpenALSoundManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18F42D1E4227B803FE1F56A0 /* UUDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6549A52F5633831711A4A5A1 /* UUDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C7F9F787B292D0B54AB21CB /* UUInstagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 380E8FFEACFD83F5CB95448F /* UUInstagram.m */; };
-		1CFFECEF3E602F5FFEBD887A /* UUDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = E15EF7A9BE4E949CAD35AAA0 /* UUDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D68C82D48DEC9A763941672 /* UUView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D6A0C7C5F4BF5B6BB193DC /* UUView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		201B4CF65B66D22112EEAFA2 /* UUCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7241DD25895236F20BECBCDA /* UUCameraView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		202E37443AA0F52BBB6DC3B4 /* UUString.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E6C0A91705D3600AC31BC8 /* UUString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21C7C91145AB1BD1B056CE04 /* UUOpenALSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A32AEEFFA72127285DB1FF9F /* UUOpenALSoundManager.m */; };
-		24718ACB74359DD5A9F7D628 /* UUDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98767DCE8FDC10BDEF774DF1 /* UUDate.m */; };
-		26DA428FE757EF30B9990D8D /* UUAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D49A4CDC28F02E12EE4E02 /* UUAlert.m */; };
-		2CF98B76057A2247A6D60193 /* UUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A13982A0CAA53CAAE335E909 /* UUReachability.m */; };
-		2F57C6BE6E08A290C2F96B3D /* UUHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A170D1AF96856AABCA963CB /* UUHttpClient.m */; };
-		2F84D3BF5D11CEE141F97B52 /* UUObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA0328CA5019D074AE36C8A /* UUObject.m */; };
-		305657BAD4ACD6A5439CF9FA /* UUHttpSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 091414DF7035F611603E41C3 /* UUHttpSession.m */; };
-		31BBDD6CCC6616BB1F90AE03 /* Pods-UUToolbox_Tests-UUToolbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BF81E0AEB17EEC00B9E915 /* Pods-UUToolbox_Tests-UUToolbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		358945416DA82C7FD64E346D /* UUDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 78069A3E4C9D5D3FFDAF47D1 /* UUDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36341BC7E5FB59802A99137E /* Pods-UUToolbox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 659D303E6F7557DDAB70B546 /* Pods-UUToolbox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		363BF84AA46C21D73EB92B59 /* UULocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C73ABFC22AB03FF2746857E /* UULocation.m */; };
-		384B05F7B73B16FDED68EFD0 /* UUInstagram.h in Headers */ = {isa = PBXBuildFile; fileRef = AB688F15423874C3BA489B82 /* UUInstagram.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38CA08E4ADB5E827716A8DD4 /* UUAwsS3Client.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BEEBF0B99AFF16473EBF581 /* UUAwsS3Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EA8E4CECFCC0F434EAF1E63 /* UUObjectFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 471C7CFBDA31F2DCFE6CE0CB /* UUObjectFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4235F237DFA156B38FEAD4FE /* UURemoteData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8745E2AFC9B0BD211380D08E /* UURemoteData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		435C78E43F719B1B24C51854 /* UUVerticalSliderView.h in Headers */ = {isa = PBXBuildFile; fileRef = B5643A510C8A8E8E87D1282E /* UUVerticalSliderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49BA650A72EAF8829E2F11C5 /* UUAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D49A4CDC28F02E12EE4E02 /* UUAlert.m */; };
-		4B1FE523EE8DBEC6E03D1457 /* UUImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0013EA82FAB5F35F63B81E05 /* UUImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B24137803E1D95C50C6C2D1 /* UUDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E26DA29C3E059E5B941C561 /* UUDebug.m */; };
-		4F6DABD0AD2A95D0BCC0B1D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD4A571D919BCDE16351457 /* Foundation.framework */; };
-		513CC2E1B93466F13AE6D3F3 /* UUString.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBCB2D2E256C86531502653 /* UUString.m */; };
-		53AB6502031264EA6E73675C /* UUActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = AC903E24B6BE2F0CD28012F9 /* UUActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54FE4490C5BA0291A6E3B542 /* UUView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D66960E10C6E2603EAB966 /* UUView.m */; };
-		5A4CE4C958EB431DBF532C47 /* UUDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E26DA29C3E059E5B941C561 /* UUDebug.m */; };
-		5ABD820946AA2D8AC19D14B6 /* UUTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F924AC02EE7828AA7D23D /* UUTextField.m */; };
-		5C185B4671A3B15CC699D0F7 /* UUColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A4D640DD75AE40ABD3B516 /* UUColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CA76DE2693B16713EB0F5A3 /* UUProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FCBFBA5056EC325358ED4C /* UUProgressView.m */; };
-		5D9B5F65A0622D23B5D978AA /* UULocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9CAC3D9A5DEF9CC310AD51 /* UULocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62E82426D33984987FB45C54 /* UUProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C580972D2D354AE732FF55 /* UUProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63DAAFE4BB03C5333A29189C /* UUVerticalSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A04D38E901C4901A4F2B6 /* UUVerticalSliderView.m */; };
-		674DDCE07BFD18CD91410A85 /* UUToolbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46901F32C003CCFB537BDD91 /* UUToolbox.bundle */; };
-		697AB2725B16B6F05A188C40 /* UUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFAFF42E1FC59361258AF0 /* UUColor.m */; };
-		6BD88A450CFDB304CA1087DF /* UUDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = E15EF7A9BE4E949CAD35AAA0 /* UUDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		702DA3335617782B905B5286 /* UUDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC03411374946310A53215 /* UUDictionary.m */; };
-		70C5847B9E2438915C6DB79A /* Pods-UUToolbox_Tests-UUToolbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AC2B20055F7740340B5073 /* Pods-UUToolbox_Tests-UUToolbox-dummy.m */; };
-		72B6CF0B939AB49518C9A06B /* UUImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B1D8DD4F2BB0D84852F0AB /* UUImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		742DFA27B304E1C990F01278 /* UUVerticalSliderView.h in Headers */ = {isa = PBXBuildFile; fileRef = B5643A510C8A8E8E87D1282E /* UUVerticalSliderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		753EB89DE951DAC4F0C739C3 /* UUDataCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F351F0F0A8626D5738315E /* UUDataCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		757BBA8B6E9485B40E952BDA /* UUProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FCBFBA5056EC325358ED4C /* UUProgressView.m */; };
-		762F0A59D392DE98E3DADA45 /* UUTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBB7E6292ADEC0BE7FDEB79 /* UUTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7636FB7582B0CD5C9B7C1539 /* UUCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7241DD25895236F20BECBCDA /* UUCameraView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		792FB547736D73E795E13288 /* UUInstagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 380E8FFEACFD83F5CB95448F /* UUInstagram.m */; };
-		797AC005BAC8573A482E510A /* UUReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FA49580006A0F34010DF43 /* UUReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AA65F876FB2431789523CA2 /* UUImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D30F3C86B9C514D7EFB382A /* UUImageView.m */; };
-		7BD8A790DB7A29731ABD8261 /* UUHttpResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E976F2ABDCC75A90119B07 /* UUHttpResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BD8FDDCF75BA951E458D3CE /* UUDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE13F471EC5CD1BFDEE016B /* UUDevice.m */; };
-		7C53BF0E3C9C0BCFC78F5545 /* UUCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39896FAC96FF389D98A2CF6B /* UUCameraView.m */; };
-		7C8767ED953B6E9B972149A1 /* UURandom.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B86613E6C3B166CD2E3AA2 /* UURandom.m */; };
-		80E9F759EB94E86B37E5308A /* UUView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D66960E10C6E2603EAB966 /* UUView.m */; };
-		8137CB895FAAD684BF37131E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD4A571D919BCDE16351457 /* Foundation.framework */; };
-		81D50DC13C77491C2823DCDF /* UUDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = EE466F151D32D516A6776074 /* UUDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		841E660C0065934B8D068576 /* UUImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F05DDCFDA5216B3321F599A /* UUImageCache.m */; };
-		885B6231881EEF3EEE84AF0C /* UUDropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC5E5E22A0C2B373AEB34F2 /* UUDropbox.m */; };
-		8875D1CD0B5D4DE887D80FC2 /* UUActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = AC903E24B6BE2F0CD28012F9 /* UUActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A3EE60ED17D27263675F0BD /* UUObjectFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3807BAB47BFDCBB2CEEC73 /* UUObjectFactory.m */; };
-		8C724E1CE8B9D6D5EF96FFA6 /* UUObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6579D3DFB207D6F1DA0159F9 /* UUObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90BD1306451D92D962696D51 /* Pods-UUToolbox_Example-UUToolbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A40244EB9273A6FFEE13841 /* Pods-UUToolbox_Example-UUToolbox-dummy.m */; };
-		9170159768DF0046E214A196 /* UUReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FA49580006A0F34010DF43 /* UUReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91E4596688C64CCE2A3D1B46 /* UURemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD322B9306351F7B408BD4 /* UURemoteData.m */; };
-		93CA0626C1EFE62AC987388D /* UUHttpResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E976F2ABDCC75A90119B07 /* UUHttpResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A093976AF5E7815C1E7B749 /* UULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCBB9F99AA07F4BF333D98 /* UULocationManager.m */; };
-		9B97BBA68CEA2237EE15636F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD4A571D919BCDE16351457 /* Foundation.framework */; };
-		9BD6AEC4D9F8B09D9FEFA246 /* UUDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC03411374946310A53215 /* UUDictionary.m */; };
-		9C1FBD2E3E7BAF27E6CF6683 /* UUObjectFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 471C7CFBDA31F2DCFE6CE0CB /* UUObjectFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D6B6247EC0E54129A059DA7 /* UUToolbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EACC8D01F98732A464332CAC /* UUToolbox.bundle */; };
-		9D8B60D0E18F776BB936F187 /* UUImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE03E29013109A48C236A7E /* UUImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E19A3D0D0EC2E35496D2492 /* UUHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 624CC07466B015B8567AC4DE /* UUHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F5819A15401E567E81EA607 /* UUString.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E6C0A91705D3600AC31BC8 /* UUString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F6C1B79DD294F56B7314573 /* UUMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6522847E8972E1DE77A643C /* UUMapView.m */; };
-		A1F246531965AEE11B6C4C7E /* UUDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = EE466F151D32D516A6776074 /* UUDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A36341DF4669A136D92BC8C1 /* UUImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B1D8DD4F2BB0D84852F0AB /* UUImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6E716D76188A9B692E70219 /* Pods-UUToolbox_Example-UUToolbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5133F1E4EF99B47F6CEA1F8E /* Pods-UUToolbox_Example-UUToolbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8795DD451CF403F9F81E35C /* UUOpenALSoundManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D3F7F572B3C7392E1DC140ED /* UUOpenALSoundManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A92424A8F445162FF1206BCB /* Pods-UUToolbox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 226C3D121DF002C69E480994 /* Pods-UUToolbox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA33ED579377E14BF287DD5F /* UUInstagram.h in Headers */ = {isa = PBXBuildFile; fileRef = AB688F15423874C3BA489B82 /* UUInstagram.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB1013F41F42134EF2663460 /* UUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DFAFF42E1FC59361258AF0 /* UUColor.m */; };
-		ABB6D564C7E4AA35CFF3E8FC /* UUCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 59C63FEEB71831F537EFE9ED /* UUCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD91BC40C03A637E258B9222 /* UUMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6522847E8972E1DE77A643C /* UUMapView.m */; };
-		AED780E58A9D39D8301F1E99 /* UULocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9CAC3D9A5DEF9CC310AD51 /* UULocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1AB1C076B22BCFECE2114B8 /* UUDataCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F351F0F0A8626D5738315E /* UUDataCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B20FD328B7F7A1DEB691A216 /* UUDropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC5E5E22A0C2B373AEB34F2 /* UUDropbox.m */; };
-		B3399A62C23262655BD54FAD /* UUDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6549A52F5633831711A4A5A1 /* UUDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B40E23DAB781B1B4C53F910C /* UURemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD322B9306351F7B408BD4 /* UURemoteData.m */; };
-		B4603A320AF5284A1E9027D0 /* UUDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 78069A3E4C9D5D3FFDAF47D1 /* UUDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B65F24F7F1EBF2F2A1CB3F49 /* UUDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE13F471EC5CD1BFDEE016B /* UUDevice.m */; };
-		B68AD92504C190E83306906B /* UUActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F7DA3F52085357950792EB /* UUActionSheet.m */; };
-		B6E94F171AEE2CC5A7FDF58B /* UUCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDA175CE841BC0C3898E9E /* UUCoreData.m */; };
-		B8D34B079BA59BFD8DD278C8 /* UURandom.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B86613E6C3B166CD2E3AA2 /* UURandom.m */; };
-		BDD59E0377E1EF80EC1C639F /* UUCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEDA175CE841BC0C3898E9E /* UUCoreData.m */; };
-		C2CCB25FCFC5D2DC475848E1 /* UUImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D30F3C86B9C514D7EFB382A /* UUImageView.m */; };
-		C5C06F4595CBBE0206F22993 /* UUMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4D7CFAF46F904A08A9FDC1 /* UUMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5ED91FF80910CF330747C3D /* UUImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 13832199B82A5CC229EECFE3 /* UUImage.m */; };
-		C759465FFFAB5CEB93ED4DBB /* UUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A13982A0CAA53CAAE335E909 /* UUReachability.m */; };
-		C76C9992A0C1998EA4627274 /* UUFlickr.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2BE8D9B7567F5CD01A761E /* UUFlickr.m */; };
-		CC1B38FCB66F6AA59C5DEB02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD4A571D919BCDE16351457 /* Foundation.framework */; };
-		CC56C6BE512B625FB8F0850E /* UUHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A170D1AF96856AABCA963CB /* UUHttpClient.m */; };
-		D050C8A696DE3308FAB5A4D4 /* UURandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C6E98894543D5F4F67CF37 /* UURandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7D0399C66FA98B3BAAF93E4 /* UUCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 59C63FEEB71831F537EFE9ED /* UUCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8A4C929791D842BC28A4ECF /* UUAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3C831D06F87EE634600B89 /* UUAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA61C48B4F1B5ACE2977EE67 /* UUFlickr.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C169CDD7F47F3C326E485D /* UUFlickr.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAA9F6A51BCE03315AD39A06 /* UUAwsS3Client.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BEEBF0B99AFF16473EBF581 /* UUAwsS3Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC8E1C0DA32E53184D7B80D8 /* UUDropbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D07FCFF418704A8179B45BA /* UUDropbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF6F9BCB5A7373ABFF669BC5 /* UUColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A4D640DD75AE40ABD3B516 /* UUColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFC4D92F4AC1B59F324A45D3 /* UUObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA0328CA5019D074AE36C8A /* UUObject.m */; };
-		E30F3A5D2C12AF2C95F0E8D3 /* UUAwsS3Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DA84E84E8344A5F99B50F2 /* UUAwsS3Client.m */; };
-		E48D32A8990BCF4B478F1916 /* UUAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3C831D06F87EE634600B89 /* UUAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAD3B597CB8CA920648F6670 /* UUFlickr.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2BE8D9B7567F5CD01A761E /* UUFlickr.m */; };
-		EF16EE850D932DDB6A97A244 /* Pods-UUToolbox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B28D3D66F551D953D440F /* Pods-UUToolbox_Example-dummy.m */; };
-		EF627AA6A7122DC5376C6E69 /* UULocation.h in Headers */ = {isa = PBXBuildFile; fileRef = A776552D351C06791A870D5D /* UULocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0D5DEE6E6C35E57E4ADBBA6 /* UUTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBB7E6292ADEC0BE7FDEB79 /* UUTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F10E711400166D3EBC0C2FAF /* UUAwsS3Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DA84E84E8344A5F99B50F2 /* UUAwsS3Client.m */; };
-		F1DCD0B005BBAC7EB22FE131 /* UURandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C6E98894543D5F4F67CF37 /* UURandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4FF0FC6796F235A233725D6 /* UUDropbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D07FCFF418704A8179B45BA /* UUDropbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F52F2CF66FF93EAE33B217C8 /* UUFlickr.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C169CDD7F47F3C326E485D /* UUFlickr.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C4193528B4AC3550133F17 /* UULocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C73ABFC22AB03FF2746857E /* UULocation.m */; };
-		FD0E4D3159A07A34ADBE8EA9 /* UUImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 13832199B82A5CC229EECFE3 /* UUImage.m */; };
-		FD2E9115735D0F6A43602E51 /* UUString.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBCB2D2E256C86531502653 /* UUString.m */; };
-		FDDBD9B19FC2B6538F324564 /* UUHttpSession.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBDBAB4E693E2554FA5029E /* UUHttpSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEE82DD5F34B58FD7100E02C /* UUProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C580972D2D354AE732FF55 /* UUProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF260C955CC110372863E186 /* UUHttpResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8319C07F6934C3CE9D8C4919 /* UUHttpResponseHandler.m */; };
-		FF3363BBD56B11B39F62154C /* UUVerticalSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A04D38E901C4901A4F2B6 /* UUVerticalSliderView.m */; };
-		FF521162D0EDA7ED8F6D2B59 /* UUDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98767DCE8FDC10BDEF774DF1 /* UUDate.m */; };
-		FF8361C6534854877B7130A0 /* UUHttpSession.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBDBAB4E693E2554FA5029E /* UUHttpSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000D87C38E7DAE43D953FD6F /* UURemoteData.h in Headers */ = {isa = PBXBuildFile; fileRef = 774B580E49E7C6DAD61721F1 /* UURemoteData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0177C04AD7EC4FB42C529AFB /* UUImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF0A61AB6AE396D41279B51 /* UUImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		041073BC714184B0B08E1D99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3164FF9DED9423AF457D621F /* Foundation.framework */; };
+		06512A0A0556BE8B58D6300C /* Pods-UUToolbox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA2895244C6A6B94E4EB4AD /* Pods-UUToolbox_Example-dummy.m */; };
+		0783EEC26D2BF83E8522EB7F /* UUCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5C38D795C480B073D74E58 /* UUCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08D2B40B75C2A6C90D3D9E34 /* UUReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 129E71DCB96BB0B81403D91A /* UUReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0922A137725495262D4988BA /* UUProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD039CAB05F35F1B86FF9F5C /* UUProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E7322D586A5945D92C12157 /* UUObjectFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE03A1D1BBD9D34697652F28 /* UUObjectFactory.m */; };
+		0EE40F480E7751C26994733B /* UUAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = D31DC07990DC70FF77F29F9E /* UUAlert.m */; };
+		0FDE9AC91372B27F3894E860 /* UUMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7140396E80189DBD010DA9 /* UUMapView.m */; };
+		12729981D53AA51505373B97 /* UUObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA5ED4D085F3986AAE52E45 /* UUObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13BFD2F43472CD3FCD9D853E /* UUVerticalSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1741C2FE73B478C4872CEFF7 /* UUVerticalSliderView.m */; };
+		1C164A669762FDCE4AC910FF /* UUActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C36B081D5AE540B1C36C9A /* UUActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC3D31EAC2EA4B73D834E0D /* UUDataCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 106D3A44E220F1DE42AD4A82 /* UUDataCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		241CDF087840E9EA55D60BB2 /* UUMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B0FEDBD412775A60B1FD200 /* UUMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27BE8A424B8850E7C484DB8A /* UUMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B0FEDBD412775A60B1FD200 /* UUMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27E546E476E7856B8FDCC30D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3164FF9DED9423AF457D621F /* Foundation.framework */; };
+		295868307D1B968953824A1E /* UUView.m in Sources */ = {isa = PBXBuildFile; fileRef = 920A42D79F2CFB64E721879D /* UUView.m */; };
+		2A62845A75273339C270A315 /* UUAwsS3Client.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D0CF23A2EA37827B89CF6A /* UUAwsS3Client.m */; };
+		2C08A1DD08F8C178B42F0EA9 /* UUHttpSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CEADCB4B5B9D2D2E9154B14F /* UUHttpSession.m */; };
+		2C73A8EE4FFFEAD626998E60 /* UUCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5C38D795C480B073D74E58 /* UUCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C92A204D70ACD1F12F67F49 /* UUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA513F0650D99171050295 /* UUReachability.m */; };
+		2F12E34CBE07418860A4154F /* UUInstagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 7825AEEB138E87BEFCB3A008 /* UUInstagram.m */; };
+		3471C046CF7411C999E98C10 /* UUDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED02080A317E215CC59FA22 /* UUDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35B8AE4C9A2BE449921548BD /* UUImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C611AA72B9D5878859CD4 /* UUImageView.m */; };
+		35E8ED3A1FFB966B420C29B2 /* UUAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9C956150E7889328F87330 /* UUAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38AC8D4EA37F93AE67C685CE /* UUView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9790694CBA4D0F37CF00D403 /* UUView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A103732CE0D17E69DE1761E /* UUDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 54367F0856FEA808EB1308A4 /* UUDebug.m */; };
+		3AF35F5BC4AF2C68F86756F7 /* UUCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4EB443835819DD907C526D /* UUCameraView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF3794F4B942D15C4F74758 /* UUHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 869213DECC1FBFBD4A23F86A /* UUHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B447422B89CE03457B5391F /* UUAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = D31DC07990DC70FF77F29F9E /* UUAlert.m */; };
+		3CAAD8EDC489521E678461B4 /* UUReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 129E71DCB96BB0B81403D91A /* UUReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D20A1C0A79173F0F973FB86 /* UUImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D88BBE35BB127483F27A392A /* UUImageCache.m */; };
+		3EEDA78AF0EC7518BF3ED4F4 /* UULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E59110979994C1434AA920B /* UULocationManager.m */; };
+		43D605792EB400D7546C073F /* UUCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE9D5A9BE8088514DC9FA03 /* UUCoreData.m */; };
+		44CA1F3A0751E169AB76307B /* UULocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4AE0077F4A0B6916C34FF1 /* UULocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		472BA0C3FB9B2719600DB8A3 /* UUVerticalSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1741C2FE73B478C4872CEFF7 /* UUVerticalSliderView.m */; };
+		47443CA816BF5053DEE713AE /* UUObjectFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B856779F8777228AA4612B /* UUObjectFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		480631C6801CA48B9431ED51 /* Pods-UUToolbox_Example-UUToolbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E370C25F96F912DBCF3CCE8 /* Pods-UUToolbox_Example-UUToolbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D0CA69DCBE076027439206E /* UUObjectFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE03A1D1BBD9D34697652F28 /* UUObjectFactory.m */; };
+		4D62D07F4C6C57FAC7689ED6 /* UUDate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF532558A0723602D2FC160A /* UUDate.m */; };
+		516DD9DCFAB8F7C6A1D87789 /* UUDataCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 106D3A44E220F1DE42AD4A82 /* UUDataCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544E7322939AA3BC6CAACFE0 /* UUColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 484097559FD200DE42AFB4DA /* UUColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5761773BF1670B9608C8EA0B /* UUDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = BCBB7A94FBFABAE209E47856 /* UUDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57F066F32FB41887D8F45916 /* UUAwsS3Client.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D0CF23A2EA37827B89CF6A /* UUAwsS3Client.m */; };
+		5A2DCDE5F214F8C6CE7B8972 /* UULocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 603484BEC9400D164261A717 /* UULocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A6228769EF6AD389BFFA07E /* Pods-UUToolbox_Example-UUToolbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E771EA1DF3521973B5BE7AAA /* Pods-UUToolbox_Example-UUToolbox-dummy.m */; };
+		5D23CB3A7CBC6D394107CECB /* UUInstagram.h in Headers */ = {isa = PBXBuildFile; fileRef = B9876AD07F31E7133E2527C7 /* UUInstagram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DC82079D52C2A48029CB0BC /* UUDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAECEF99C4197E057D6E517 /* UUDictionary.m */; };
+		60EAF5E145AA4F502AA81B64 /* UUHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8805D07360E3D2726A9B8D06 /* UUHttpClient.m */; };
+		615953F82A30069B3A3361A2 /* UUDropbox.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB17AF6966186992A7A8D82 /* UUDropbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		618ED39386F5CAC8A70A118C /* UUActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC24B824C9F888F287EABE4 /* UUActionSheet.m */; };
+		61B6CAAF79EFF31C9A7C4033 /* UUHttpSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CEADCB4B5B9D2D2E9154B14F /* UUHttpSession.m */; };
+		626963C68C1ECB3AE018A448 /* UUString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF6F02683FDBADCA289640D /* UUString.m */; };
+		63AFC97D7D12F6E6649FA6AF /* UUHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 869213DECC1FBFBD4A23F86A /* UUHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66EF20A9A82E6891006DE087 /* UUString.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C3785EF929670E6062A462 /* UUString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		672E0307F42D0D07A3623ACD /* UUDropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 19424E95FC637C00CBE1BC21 /* UUDropbox.m */; };
+		6773911FC8D90A3F7163E7A1 /* UUDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED02080A317E215CC59FA22 /* UUDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B7B365986F4EA3A5C62A781 /* Pods-UUToolbox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B06B5F7A03A0ADDC1A6C2DE /* Pods-UUToolbox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DAF54F806B4CA7F94F396F6 /* UUDropbox.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB17AF6966186992A7A8D82 /* UUDropbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732DF2171AA6EACC6274B5F6 /* UUDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = BCBB7A94FBFABAE209E47856 /* UUDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77835F86F6841BC1457B5715 /* UUActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C36B081D5AE540B1C36C9A /* UUActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77CEA1638A99BEA0E9A356E1 /* UUDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 476E6D4D375073D8F52D7293 /* UUDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		782CF8381EA2AA83198D3185 /* UUObjectFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B856779F8777228AA4612B /* UUObjectFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ACD21AE15AACE84866D8B1D /* UUAwsS3Client.h in Headers */ = {isa = PBXBuildFile; fileRef = A8CCB4749FB792D272043203 /* UUAwsS3Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BD959290BEC8145B339053B /* UUProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A019EC2864A5168E1A5A84D7 /* UUProgressView.m */; };
+		7C00C5499803A31A534D9E78 /* UUAwsS3Client.h in Headers */ = {isa = PBXBuildFile; fileRef = A8CCB4749FB792D272043203 /* UUAwsS3Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF299E7500B6C574A4B02B1 /* UURandom.m in Sources */ = {isa = PBXBuildFile; fileRef = A60126F4183C4DBA72A460AF /* UURandom.m */; };
+		7D93A309E7E2A9E03CD86935 /* UURemoteData.h in Headers */ = {isa = PBXBuildFile; fileRef = 774B580E49E7C6DAD61721F1 /* UURemoteData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		820592D72F2430D4FBA3BA09 /* UUDate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF532558A0723602D2FC160A /* UUDate.m */; };
+		87F80C488809F739CA5A7C35 /* UUOpenALSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2EC4C06DC36C41A7C0D3B4 /* UUOpenALSoundManager.m */; };
+		8889AEE8FB53503E3A6E40D9 /* UUString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF6F02683FDBADCA289640D /* UUString.m */; };
+		8D7AE248DD2F92976DF5B55F /* UUTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 377CC7A0FFA8A3DEA0AE3DD8 /* UUTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DC2AB80F234F755891EBDDD /* UUImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D88BBE35BB127483F27A392A /* UUImageCache.m */; };
+		8E519BB74B72A9B9C73043CD /* UUToolbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D7E118679C7421666211CC0 /* UUToolbox.bundle */; };
+		8F499933BEECCB5A2887AC28 /* UUImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC1864040C2493B753782BD /* UUImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F4CB96546D5A891EA3C14A0 /* UURemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D6C7FA5CA2DCCCCB5FEFF7 /* UURemoteData.m */; };
+		8F92D05E71D7F7B18F5DF073 /* UUVerticalSliderView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0C3F78B12A99D7A71F791C /* UUVerticalSliderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91017CE22E70A38CAFCAE32B /* UUDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAECEF99C4197E057D6E517 /* UUDictionary.m */; };
+		92842C7C93983502953AA29D /* UUTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FADAB0231668867A8ABB3A3A /* UUTextField.m */; };
+		92D15A59E5C99B4C935AFA25 /* UUDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B52060F34098222D186A70 /* UUDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93BC6A7DC84519915BD66A99 /* UUToolbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C2F5F11E990BA7E4F269CFD /* UUToolbox.bundle */; };
+		954B0477CBAF0FE2A9A63188 /* UUDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 54367F0856FEA808EB1308A4 /* UUDebug.m */; };
+		965C7730E3C517EC18BB5AFD /* UUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4855EE2A0FABA7C1425F1230 /* UUColor.m */; };
+		970260D7A178A255A7BCFEFC /* UUAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9C956150E7889328F87330 /* UUAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9734091F6D10084733E5FCB3 /* UUDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBEE4EA1DE1880A626B932D /* UUDevice.m */; };
+		97FC7C9088E33A2026D04587 /* UUTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FADAB0231668867A8ABB3A3A /* UUTextField.m */; };
+		98A554393FA9C7DECB219EA7 /* UUTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 377CC7A0FFA8A3DEA0AE3DD8 /* UUTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99A95B8193F6DBD17434699A /* UUObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B6119569598883679AEB7C23 /* UUObject.m */; };
+		9BB492A37BD32A3A3F5D57F1 /* UUFlickr.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A75355B4CFB084CACFD59B3 /* UUFlickr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BE31AAA4ECBD0EDABD997C3 /* UUDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBEE4EA1DE1880A626B932D /* UUDevice.m */; };
+		9CBF344625A3EEF99BC0D7B9 /* UUImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C611AA72B9D5878859CD4 /* UUImageView.m */; };
+		A5F6D6F6AAACF3B60C3303FA /* UUDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B52060F34098222D186A70 /* UUDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A828933A758B66246559622C /* UUImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8430F770ACEB17645D3AA0 /* UUImage.m */; };
+		A9696BBEE4963A5C03982CBF /* UUActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC24B824C9F888F287EABE4 /* UUActionSheet.m */; };
+		AB68713CD36C383BFEB176E0 /* UUCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE9D5A9BE8088514DC9FA03 /* UUCoreData.m */; };
+		ADE8A53776B8B0A9ADCCCC2F /* UUVerticalSliderView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0C3F78B12A99D7A71F791C /* UUVerticalSliderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE36536AC9F798201AF346E2 /* UUImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC1864040C2493B753782BD /* UUImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0BECA5FEFEA05DE7F630868 /* UUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA513F0650D99171050295 /* UUReachability.m */; };
+		B4301812BC950A3AA62436DF /* UUProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A019EC2864A5168E1A5A84D7 /* UUProgressView.m */; };
+		B4DB7EF45F8373ED1005EDF4 /* UUDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCB3BC880803530260720DB /* UUDataCache.m */; };
+		B754A3E89DF707CBB00D4C18 /* UUHttpResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 462D0E2E88B0AC3BBDBA8E48 /* UUHttpResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B794B9F8DDBDFDA04C4F0B87 /* UUHttpResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A63A3489467027494AA3811B /* UUHttpResponseHandler.m */; };
+		B7AE3EF74332FC874EB1902B /* UUCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4EB443835819DD907C526D /* UUCameraView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E9CDFA4A81A0F2C3ACE306 /* UUColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 484097559FD200DE42AFB4DA /* UUColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9DDC42FBDF434C4B1B37872 /* UURemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D6C7FA5CA2DCCCCB5FEFF7 /* UURemoteData.m */; };
+		BBC3D668DA02E117BC26C68B /* UURandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ABAA1973015E9F99AD8E7E2 /* UURandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBCE908C30DA9F9BBB433E99 /* UUFlickr.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A75355B4CFB084CACFD59B3 /* UUFlickr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0715DDE504358EB8B39B7D /* UUOpenALSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2EC4C06DC36C41A7C0D3B4 /* UUOpenALSoundManager.m */; };
+		BC8A18AD9EBF6C6E134CE695 /* UUView.m in Sources */ = {isa = PBXBuildFile; fileRef = 920A42D79F2CFB64E721879D /* UUView.m */; };
+		BC96DA2B95D44BB2FE694092 /* UUFlickr.m in Sources */ = {isa = PBXBuildFile; fileRef = E35C98A2397EFAA200E3BF73 /* UUFlickr.m */; };
+		BDAF74C17A79345811BCD519 /* UUString.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C3785EF929670E6062A462 /* UUString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C348D28E98CE8547FDE8381C /* UULocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4AE0077F4A0B6916C34FF1 /* UULocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6A9648AD2FD97FB1B8C0C90 /* UUImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF0A61AB6AE396D41279B51 /* UUImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC3033611F09E7D8939CE7E2 /* UUOpenALSoundManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC86629E43B13B41B0812A5C /* UUOpenALSoundManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D030DA32D96A60BED505A5F1 /* Pods-UUToolbox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C63524B5F0938BA046D9884 /* Pods-UUToolbox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2142AAC328AF59CF9708E00 /* UUMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7140396E80189DBD010DA9 /* UUMapView.m */; };
+		D22B40A374CE1F1146984067 /* UUView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9790694CBA4D0F37CF00D403 /* UUView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2A539870289EF848C532EC6 /* UULocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6242F4270D43784BA854157D /* UULocation.m */; };
+		D4B82017AFE82CFC507EA331 /* UUInstagram.h in Headers */ = {isa = PBXBuildFile; fileRef = B9876AD07F31E7133E2527C7 /* UUInstagram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6C58AAC1986BC625BA3C0A2 /* UURandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ABAA1973015E9F99AD8E7E2 /* UURandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D84C6E5F862E9B3CB9AD2204 /* UUHttpResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A63A3489467027494AA3811B /* UUHttpResponseHandler.m */; };
+		DA69726782A8D475B28A8E71 /* UUHttpSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 1941254C9BA84216552A112D /* UUHttpSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC1EE10E8D8CB50A889338F0 /* UUDropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 19424E95FC637C00CBE1BC21 /* UUDropbox.m */; };
+		DC54ADF4956F7557EF7B2498 /* UUImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8430F770ACEB17645D3AA0 /* UUImage.m */; };
+		DD9E4EE339838A5262736C21 /* UUProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD039CAB05F35F1B86FF9F5C /* UUProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF317FF7AF8CAACDE5433AAC /* UUHttpResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 462D0E2E88B0AC3BBDBA8E48 /* UUHttpResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2F1B4EC9E159A31C58CCAE5 /* UULocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 603484BEC9400D164261A717 /* UULocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5369ED0C702EDB2534DDC5D /* UUInstagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 7825AEEB138E87BEFCB3A008 /* UUInstagram.m */; };
+		E5EA3057A6A35A3684EE1C6A /* UUFlickr.m in Sources */ = {isa = PBXBuildFile; fileRef = E35C98A2397EFAA200E3BF73 /* UUFlickr.m */; };
+		E8C8AFBB71448A3365B8086B /* UULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E59110979994C1434AA920B /* UULocationManager.m */; };
+		EB4FB1ADFA577E9D6D94B809 /* UUImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A19C83AD0EEC303EA243E3B5 /* UUImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED45C0EA6BBF9592DAE90487 /* UUCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = C213770144522E622ABA5A8F /* UUCameraView.m */; };
+		EE0D22312F083EFA70A3617A /* UUHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8805D07360E3D2726A9B8D06 /* UUHttpClient.m */; };
+		EE352AB2D87F41EDAE72BB8D /* UUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4855EE2A0FABA7C1425F1230 /* UUColor.m */; };
+		EE3F3C904F05CC22AD3CD17A /* Pods-UUToolbox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B714F76B87BD314FFC01A /* Pods-UUToolbox_Tests-dummy.m */; };
+		EE6BAD1411A4C8C85396A0C3 /* UUOpenALSoundManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC86629E43B13B41B0812A5C /* UUOpenALSoundManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFF8EC40D94286E73E928803 /* UURandom.m in Sources */ = {isa = PBXBuildFile; fileRef = A60126F4183C4DBA72A460AF /* UURandom.m */; };
+		F1891DA96C65B5278AD45A92 /* UUDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCB3BC880803530260720DB /* UUDataCache.m */; };
+		F28ABA71C2ECC4A49BA8F0EB /* UUObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B6119569598883679AEB7C23 /* UUObject.m */; };
+		F4183C3289087F23BC95F52E /* UUHttpSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 1941254C9BA84216552A112D /* UUHttpSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DCEDCE00F9BFA375401F52 /* UUDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 476E6D4D375073D8F52D7293 /* UUDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F543558973F91C012167347B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3164FF9DED9423AF457D621F /* Foundation.framework */; };
+		F6FC3870FCD7E3F96490963C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3164FF9DED9423AF457D621F /* Foundation.framework */; };
+		F8F999C4EFB36CEA3AA579A2 /* UUCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = C213770144522E622ABA5A8F /* UUCameraView.m */; };
+		FA084CD9CB9F4EB4B3EAB12F /* UUObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA5ED4D085F3986AAE52E45 /* UUObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA5D6DAB1BDD305B13EE2F41 /* Pods-UUToolbox_Tests-UUToolbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E9708DE95367FB710DF487 /* Pods-UUToolbox_Tests-UUToolbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB90064A9E3B9E5788543F8B /* UUImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A19C83AD0EEC303EA243E3B5 /* UUImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD21D16F8174CD9168F8938A /* Pods-UUToolbox_Tests-UUToolbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6A030476C7E7951E3E23B0 /* Pods-UUToolbox_Tests-UUToolbox-dummy.m */; };
+		FD43072E0265BBC659F6E1C4 /* UULocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6242F4270D43784BA854157D /* UULocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0F5276E2A49BDB796D8B411B /* PBXContainerItemProxy */ = {
+		09D78A4CABBF64F36E2F500C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BB39B794137A77D26984C0C2 /* Project object */;
+			containerPortal = BAF71A99DD1B6CC357D27825 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6DCA093301199C5C60C03FA9;
-			remoteInfo = "Pods-UUToolbox_Example-UUToolbox-UUToolbox";
+			remoteGlobalIDString = 5CEDD639AA04CFFFA4FA8F73;
+			remoteInfo = "Pods-UUToolbox_Tests-UUToolbox";
 		};
-		1C3105E38CB548D6D8EDD0F7 /* PBXContainerItemProxy */ = {
+		477BA3A17794A2E333FA426F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BB39B794137A77D26984C0C2 /* Project object */;
+			containerPortal = BAF71A99DD1B6CC357D27825 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 827B5A1A72A5E47BAF9881AE;
-			remoteInfo = "Pods-UUToolbox_Tests-UUToolbox-UUToolbox";
-		};
-		5601ACF418E61190625AC3CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB39B794137A77D26984C0C2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68E0341462F4B536A54C3D1B;
+			remoteGlobalIDString = 175F7E029AA49E06AEE2B387;
 			remoteInfo = "Pods-UUToolbox_Example-UUToolbox";
 		};
-		B43C27DBE51ABB7E8755D6B1 /* PBXContainerItemProxy */ = {
+		5AF2B5A9CAE24C7522D1A741 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BB39B794137A77D26984C0C2 /* Project object */;
+			containerPortal = BAF71A99DD1B6CC357D27825 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7BE4DE4CD73419B3EBECC03E;
-			remoteInfo = "Pods-UUToolbox_Tests-UUToolbox";
+			remoteGlobalIDString = 3CB9C0AC9C0DD9737113CB51;
+			remoteInfo = "Pods-UUToolbox_Example-UUToolbox-UUToolbox";
+		};
+		EF89BEDB7BFBD46D7CF5C2AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF71A99DD1B6CC357D27825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3665F67ED99EE728B2D34AB2;
+			remoteInfo = "Pods-UUToolbox_Tests-UUToolbox-UUToolbox";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0013EA82FAB5F35F63B81E05 /* UUImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUImage.h; sourceTree = "<group>"; };
-		04C6E98894543D5F4F67CF37 /* UURandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UURandom.h; sourceTree = "<group>"; };
-		091414DF7035F611603E41C3 /* UUHttpSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUHttpSession.m; sourceTree = "<group>"; };
-		0FEDA175CE841BC0C3898E9E /* UUCoreData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUCoreData.m; sourceTree = "<group>"; };
-		10B33230DF310CABB1BD17D5 /* Pods-UUToolbox_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UUToolbox_Tests-environment.h"; sourceTree = "<group>"; };
-		11A4D640DD75AE40ABD3B516 /* UUColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUColor.h; sourceTree = "<group>"; };
-		13832199B82A5CC229EECFE3 /* UUImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUImage.m; sourceTree = "<group>"; };
-		15193CE71A63FB1EF3F4EEDD /* Pods-UUToolbox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UUToolbox_Tests.modulemap"; sourceTree = "<group>"; };
-		1D07FCFF418704A8179B45BA /* UUDropbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUDropbox.h; sourceTree = "<group>"; };
-		1DA0328CA5019D074AE36C8A /* UUObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUObject.m; sourceTree = "<group>"; };
-		1E26DA29C3E059E5B941C561 /* UUDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUDebug.m; sourceTree = "<group>"; };
-		1FDC03411374946310A53215 /* UUDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUDictionary.m; sourceTree = "<group>"; };
-		226C3D121DF002C69E480994 /* Pods-UUToolbox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UUToolbox_Tests-umbrella.h"; sourceTree = "<group>"; };
-		229237532DD4FD20B79B32BD /* Pods-UUToolbox_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UUToolbox_Example-environment.h"; sourceTree = "<group>"; };
-		24A83B74151B8C3550CFA327 /* UUDataCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUDataCache.m; sourceTree = "<group>"; };
-		2B6B28D3D66F551D953D440F /* Pods-UUToolbox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UUToolbox_Example-dummy.m"; sourceTree = "<group>"; };
-		2BEEBF0B99AFF16473EBF581 /* UUAwsS3Client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUAwsS3Client.h; sourceTree = "<group>"; };
-		2D1A04D38E901C4901A4F2B6 /* UUVerticalSliderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUVerticalSliderView.m; sourceTree = "<group>"; };
-		2E36DE022D5D898FD5913C6F /* Pods-UUToolbox_Tests-UUToolbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-UUToolbox_Tests-UUToolbox.modulemap"; path = "../Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox.modulemap"; sourceTree = "<group>"; };
-		380E8FFEACFD83F5CB95448F /* UUInstagram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUInstagram.m; sourceTree = "<group>"; };
-		39896FAC96FF389D98A2CF6B /* UUCameraView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUCameraView.m; sourceTree = "<group>"; };
-		39F351F0F0A8626D5738315E /* UUDataCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUDataCache.h; sourceTree = "<group>"; };
-		3A170D1AF96856AABCA963CB /* UUHttpClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUHttpClient.m; sourceTree = "<group>"; };
-		3AE03E29013109A48C236A7E /* UUImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUImageCache.h; sourceTree = "<group>"; };
-		3B33B420A7C19CA5CF5162D1 /* Pods-UUToolbox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UUToolbox_Example.modulemap"; sourceTree = "<group>"; };
-		3B48AC0C92E2FC09055FD194 /* Pods-UUToolbox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUToolbox_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		420517D1D737993B0DC2E5DA /* Pods-UUToolbox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUToolbox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		46901F32C003CCFB537BDD91 /* UUToolbox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UUToolbox.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		471C7CFBDA31F2DCFE6CE0CB /* UUObjectFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUObjectFactory.h; sourceTree = "<group>"; };
-		4F05DDCFDA5216B3321F599A /* UUImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUImageCache.m; sourceTree = "<group>"; };
-		5133F1E4EF99B47F6CEA1F8E /* Pods-UUToolbox_Example-UUToolbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UUToolbox_Example-UUToolbox-umbrella.h"; sourceTree = "<group>"; };
-		52619B9CC148D315F8911DBA /* Pods-UUToolbox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UUToolbox_Example-frameworks.sh"; sourceTree = "<group>"; };
-		556460670B1E727E29E1C37D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59C63FEEB71831F537EFE9ED /* UUCoreData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUCoreData.h; sourceTree = "<group>"; };
-		59DA84E84E8344A5F99B50F2 /* UUAwsS3Client.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUAwsS3Client.m; sourceTree = "<group>"; };
-		5CE13F471EC5CD1BFDEE016B /* UUDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUDevice.m; sourceTree = "<group>"; };
-		61B4774469D2466556376611 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		624CC07466B015B8567AC4DE /* UUHttpClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUHttpClient.h; sourceTree = "<group>"; };
-		629F924AC02EE7828AA7D23D /* UUTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUTextField.m; sourceTree = "<group>"; };
-		6549A52F5633831711A4A5A1 /* UUDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUDictionary.h; sourceTree = "<group>"; };
-		6579D3DFB207D6F1DA0159F9 /* UUObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUObject.h; sourceTree = "<group>"; };
-		659D303E6F7557DDAB70B546 /* Pods-UUToolbox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UUToolbox_Example-umbrella.h"; sourceTree = "<group>"; };
-		66FCBFBA5056EC325358ED4C /* UUProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUProgressView.m; sourceTree = "<group>"; };
-		67F7DA3F52085357950792EB /* UUActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUActionSheet.m; sourceTree = "<group>"; };
-		68B1D8DD4F2BB0D84852F0AB /* UUImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUImageView.h; sourceTree = "<group>"; };
-		69D6A0C7C5F4BF5B6BB193DC /* UUView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUView.h; sourceTree = "<group>"; };
-		6A3FF4DE63056312EE908E47 /* Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig"; path = "../Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig"; sourceTree = "<group>"; };
-		6C36C5973F4DA89D02D8B22F /* Pods_UUToolbox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UUToolbox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C73ABFC22AB03FF2746857E /* UULocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UULocation.m; sourceTree = "<group>"; };
-		6CFD322B9306351F7B408BD4 /* UURemoteData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UURemoteData.m; sourceTree = "<group>"; };
-		7241DD25895236F20BECBCDA /* UUCameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUCameraView.h; sourceTree = "<group>"; };
-		75A05890DFDDB3EA46B2ABDD /* Pods-UUToolbox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UUToolbox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		75AC2B20055F7740340B5073 /* Pods-UUToolbox_Tests-UUToolbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-UUToolbox_Tests-UUToolbox-dummy.m"; path = "../Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox-dummy.m"; sourceTree = "<group>"; };
-		767B0E0FE04CB6AE4932EDFC /* Pods-UUToolbox_Example-UUToolbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UUToolbox_Example-UUToolbox-prefix.pch"; sourceTree = "<group>"; };
-		7736DD8840CBF9483A1BA914 /* Pods-UUToolbox_Tests-UUToolbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUToolbox_Tests-UUToolbox.xcconfig"; path = "../Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox.xcconfig"; sourceTree = "<group>"; };
-		78069A3E4C9D5D3FFDAF47D1 /* UUDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUDate.h; sourceTree = "<group>"; };
-		7A40244EB9273A6FFEE13841 /* Pods-UUToolbox_Example-UUToolbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UUToolbox_Example-UUToolbox-dummy.m"; sourceTree = "<group>"; };
-		7D16D7EC9CFA859E72CDD502 /* Pods-UUToolbox_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UUToolbox_Example-resources.sh"; sourceTree = "<group>"; };
-		7E898ABA03F671BBA7FEBCBD /* Pods-UUToolbox_Tests-UUToolbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UUToolbox_Tests-UUToolbox-prefix.pch"; path = "../Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox-prefix.pch"; sourceTree = "<group>"; };
-		8319C07F6934C3CE9D8C4919 /* UUHttpResponseHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUHttpResponseHandler.m; sourceTree = "<group>"; };
-		8745E2AFC9B0BD211380D08E /* UURemoteData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UURemoteData.h; sourceTree = "<group>"; };
-		88C6B659CEA0C965FF8F13D8 /* Pods-UUToolbox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UUToolbox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CBEC754F61B21FDD64E07F0 /* Pods-UUToolbox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UUToolbox_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		8F9CAC3D9A5DEF9CC310AD51 /* UULocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UULocationManager.h; sourceTree = "<group>"; };
-		98767DCE8FDC10BDEF774DF1 /* UUDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUDate.m; sourceTree = "<group>"; };
-		9910619F1CF3812B4044C2C9 /* Pods-UUToolbox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUToolbox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		99BF9E5DA94D37BC544D1621 /* Pods-UUToolbox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UUToolbox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		99C169CDD7F47F3C326E485D /* UUFlickr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUFlickr.h; sourceTree = "<group>"; };
-		9D30F3C86B9C514D7EFB382A /* UUImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUImageView.m; sourceTree = "<group>"; };
-		9DBCBB9F99AA07F4BF333D98 /* UULocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UULocationManager.m; sourceTree = "<group>"; };
-		9E2BE8D9B7567F5CD01A761E /* UUFlickr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUFlickr.m; sourceTree = "<group>"; };
-		9EC0D726C2B6D17CFB3EB392 /* UUToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F6075574A3724687FB395AE /* Pods_UUToolbox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UUToolbox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A13982A0CAA53CAAE335E909 /* UUReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUReachability.m; sourceTree = "<group>"; };
-		A32AEEFFA72127285DB1FF9F /* UUOpenALSoundManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUOpenALSoundManager.m; sourceTree = "<group>"; };
-		A6E976F2ABDCC75A90119B07 /* UUHttpResponseHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUHttpResponseHandler.h; sourceTree = "<group>"; };
-		A776552D351C06791A870D5D /* UULocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UULocation.h; sourceTree = "<group>"; };
-		AB688F15423874C3BA489B82 /* UUInstagram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUInstagram.h; sourceTree = "<group>"; };
-		AC903E24B6BE2F0CD28012F9 /* UUActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUActionSheet.h; sourceTree = "<group>"; };
-		ADC5E5E22A0C2B373AEB34F2 /* UUDropbox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUDropbox.m; sourceTree = "<group>"; };
-		B4D66960E10C6E2603EAB966 /* UUView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUView.m; sourceTree = "<group>"; };
-		B5643A510C8A8E8E87D1282E /* UUVerticalSliderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUVerticalSliderView.h; sourceTree = "<group>"; };
-		B8D49A4CDC28F02E12EE4E02 /* UUAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUAlert.m; sourceTree = "<group>"; };
-		BBF0DDD9D51EB3E16A33BA84 /* Pods-UUToolbox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UUToolbox_Tests-dummy.m"; sourceTree = "<group>"; };
-		BFBB7E6292ADEC0BE7FDEB79 /* UUTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUTextField.h; sourceTree = "<group>"; };
-		C0DFAFF42E1FC59361258AF0 /* UUColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUColor.m; sourceTree = "<group>"; };
-		C59D187AE7545216920726FF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C6522847E8972E1DE77A643C /* UUMapView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUMapView.m; sourceTree = "<group>"; };
-		C6C6CBDFC046CCC579BAD4CE /* Pods-UUToolbox_Example-UUToolbox-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUToolbox_Example-UUToolbox-Private.xcconfig"; sourceTree = "<group>"; };
-		CACBF3B2C44CC743F8C978A6 /* UUToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD4D7CFAF46F904A08A9FDC1 /* UUMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUMapView.h; sourceTree = "<group>"; };
-		CF1B492B86D1B8A2C1B9CA39 /* Pods-UUToolbox_Example-UUToolbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UUToolbox_Example-UUToolbox.modulemap"; sourceTree = "<group>"; };
-		D245253065DD02C4D9A7B5EB /* Pods-UUToolbox_Example-UUToolbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUToolbox_Example-UUToolbox.xcconfig"; sourceTree = "<group>"; };
-		D3F7F572B3C7392E1DC140ED /* UUOpenALSoundManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUOpenALSoundManager.h; sourceTree = "<group>"; };
-		D6FACACDFC93ACB47B7B951C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8B86613E6C3B166CD2E3AA2 /* UURandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UURandom.m; sourceTree = "<group>"; };
-		DFD4A571D919BCDE16351457 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E0C580972D2D354AE732FF55 /* UUProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUProgressView.h; sourceTree = "<group>"; };
-		E15EF7A9BE4E949CAD35AAA0 /* UUDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUDebug.h; sourceTree = "<group>"; };
-		E7211D29ADAF39F625A9BDEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-UUToolbox_Tests-UUToolbox/Info.plist"; sourceTree = "<group>"; };
-		E793CB13C565D61C1E71A73A /* Pods-UUToolbox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUToolbox_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E8CE4F8E91916FA14DE841E4 /* Pods-UUToolbox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UUToolbox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EACC8D01F98732A464332CAC /* UUToolbox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UUToolbox.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB037FB6B206D6103B8F1DAE /* Pods-UUToolbox_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UUToolbox_Tests-resources.sh"; sourceTree = "<group>"; };
-		EBBDBAB4E693E2554FA5029E /* UUHttpSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUHttpSession.h; sourceTree = "<group>"; };
-		EE466F151D32D516A6776074 /* UUDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUDevice.h; sourceTree = "<group>"; };
-		EF3807BAB47BFDCBB2CEEC73 /* UUObjectFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUObjectFactory.m; sourceTree = "<group>"; };
-		EFBCB2D2E256C86531502653 /* UUString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUString.m; sourceTree = "<group>"; };
-		F6FA49580006A0F34010DF43 /* UUReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUReachability.h; sourceTree = "<group>"; };
-		F8BF81E0AEB17EEC00B9E915 /* Pods-UUToolbox_Tests-UUToolbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UUToolbox_Tests-UUToolbox-umbrella.h"; path = "../Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox-umbrella.h"; sourceTree = "<group>"; };
-		F8E6C0A91705D3600AC31BC8 /* UUString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUString.h; sourceTree = "<group>"; };
-		FF3C831D06F87EE634600B89 /* UUAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUAlert.h; sourceTree = "<group>"; };
+		0C63524B5F0938BA046D9884 /* Pods-UUToolbox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UUToolbox_Example-umbrella.h"; sourceTree = "<group>"; };
+		106D3A44E220F1DE42AD4A82 /* UUDataCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUDataCache.h; sourceTree = "<group>"; };
+		129E71DCB96BB0B81403D91A /* UUReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUReachability.h; sourceTree = "<group>"; };
+		1741C2FE73B478C4872CEFF7 /* UUVerticalSliderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUVerticalSliderView.m; sourceTree = "<group>"; };
+		1941254C9BA84216552A112D /* UUHttpSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUHttpSession.h; sourceTree = "<group>"; };
+		19424E95FC637C00CBE1BC21 /* UUDropbox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUDropbox.m; sourceTree = "<group>"; };
+		1DF85E1AAB60384A62D0AF72 /* Pods-UUToolbox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UUToolbox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		23E9708DE95367FB710DF487 /* Pods-UUToolbox_Tests-UUToolbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UUToolbox_Tests-UUToolbox-umbrella.h"; path = "../Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox-umbrella.h"; sourceTree = "<group>"; };
+		2734632EF233456999D1ACB9 /* Pods-UUToolbox_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UUToolbox_Example-environment.h"; sourceTree = "<group>"; };
+		27E3B53DE1B919EE7B2F1539 /* Pods_UUToolbox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UUToolbox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4EB443835819DD907C526D /* UUCameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUCameraView.h; sourceTree = "<group>"; };
+		2A75355B4CFB084CACFD59B3 /* UUFlickr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUFlickr.h; sourceTree = "<group>"; };
+		3164FF9DED9423AF457D621F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36E8BCBC3343EC28D3B004BE /* Pods-UUToolbox_Example-UUToolbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUToolbox_Example-UUToolbox.xcconfig"; sourceTree = "<group>"; };
+		377CC7A0FFA8A3DEA0AE3DD8 /* UUTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUTextField.h; sourceTree = "<group>"; };
+		3B06B5F7A03A0ADDC1A6C2DE /* Pods-UUToolbox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UUToolbox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3DF6F02683FDBADCA289640D /* UUString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUString.m; sourceTree = "<group>"; };
+		3FBA513F0650D99171050295 /* UUReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUReachability.m; sourceTree = "<group>"; };
+		409AC1A4FFC74D467E16B8F4 /* Pods-UUToolbox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUToolbox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		462D0E2E88B0AC3BBDBA8E48 /* UUHttpResponseHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUHttpResponseHandler.h; sourceTree = "<group>"; };
+		476E6D4D375073D8F52D7293 /* UUDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUDate.h; sourceTree = "<group>"; };
+		484097559FD200DE42AFB4DA /* UUColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUColor.h; sourceTree = "<group>"; };
+		4855EE2A0FABA7C1425F1230 /* UUColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUColor.m; sourceTree = "<group>"; };
+		4940669AEDACF2683D6062D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4973C1EF48E4E57CE73DE803 /* Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig"; path = "../Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig"; sourceTree = "<group>"; };
+		4D5C38D795C480B073D74E58 /* UUCoreData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUCoreData.h; sourceTree = "<group>"; };
+		4DC1864040C2493B753782BD /* UUImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUImageView.h; sourceTree = "<group>"; };
+		4F2EC4C06DC36C41A7C0D3B4 /* UUOpenALSoundManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUOpenALSoundManager.m; sourceTree = "<group>"; };
+		4FF0A61AB6AE396D41279B51 /* UUImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUImageCache.h; sourceTree = "<group>"; };
+		5201F251A3AB6996139F5D61 /* Pods-UUToolbox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UUToolbox_Tests.modulemap"; sourceTree = "<group>"; };
+		54367F0856FEA808EB1308A4 /* UUDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUDebug.m; sourceTree = "<group>"; };
+		546441E6BD017F008364B8C4 /* Pods-UUToolbox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UUToolbox_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		56084365681C95B2A57F3804 /* Pods-UUToolbox_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UUToolbox_Example-resources.sh"; sourceTree = "<group>"; };
+		5643E4F926C40A3F1F0C5655 /* Pods-UUToolbox_Tests-UUToolbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-UUToolbox_Tests-UUToolbox.modulemap"; path = "../Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox.modulemap"; sourceTree = "<group>"; };
+		59994B94482C9B7AF0BBE15F /* Pods-UUToolbox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UUToolbox_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5C035B1821B301CA9D59A9BD /* Pods-UUToolbox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UUToolbox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C4AE0077F4A0B6916C34FF1 /* UULocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UULocationManager.h; sourceTree = "<group>"; };
+		5DE9D5A9BE8088514DC9FA03 /* UUCoreData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUCoreData.m; sourceTree = "<group>"; };
+		603484BEC9400D164261A717 /* UULocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UULocation.h; sourceTree = "<group>"; };
+		6242F4270D43784BA854157D /* UULocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UULocation.m; sourceTree = "<group>"; };
+		62C10D49E75F8917895EA92B /* Pods-UUToolbox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUToolbox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B0FEDBD412775A60B1FD200 /* UUMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUMapView.h; sourceTree = "<group>"; };
+		6CBEE4EA1DE1880A626B932D /* UUDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUDevice.m; sourceTree = "<group>"; };
+		6E370C25F96F912DBCF3CCE8 /* Pods-UUToolbox_Example-UUToolbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UUToolbox_Example-UUToolbox-umbrella.h"; sourceTree = "<group>"; };
+		6E59110979994C1434AA920B /* UULocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UULocationManager.m; sourceTree = "<group>"; };
+		6ED01AA28A8EBDD94EC08831 /* UUToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B856779F8777228AA4612B /* UUObjectFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUObjectFactory.h; sourceTree = "<group>"; };
+		774B580E49E7C6DAD61721F1 /* UURemoteData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UURemoteData.h; sourceTree = "<group>"; };
+		7825AEEB138E87BEFCB3A008 /* UUInstagram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUInstagram.m; sourceTree = "<group>"; };
+		7CA2895244C6A6B94E4EB4AD /* Pods-UUToolbox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UUToolbox_Example-dummy.m"; sourceTree = "<group>"; };
+		7FA5ED4D085F3986AAE52E45 /* UUObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUObject.h; sourceTree = "<group>"; };
+		839B4B4516A6A046E04B3616 /* Pods_UUToolbox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UUToolbox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85396CFED0314961FC4D97C7 /* Pods-UUToolbox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUToolbox_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		869213DECC1FBFBD4A23F86A /* UUHttpClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUHttpClient.h; sourceTree = "<group>"; };
+		8805D07360E3D2726A9B8D06 /* UUHttpClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUHttpClient.m; sourceTree = "<group>"; };
+		89FB7E7D6BB33838AE8C3A4C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ABAA1973015E9F99AD8E7E2 /* UURandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UURandom.h; sourceTree = "<group>"; };
+		8D91399A6ACCF77F27E0962C /* Pods-UUToolbox_Example-UUToolbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UUToolbox_Example-UUToolbox-prefix.pch"; sourceTree = "<group>"; };
+		8E7B714F76B87BD314FFC01A /* Pods-UUToolbox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UUToolbox_Tests-dummy.m"; sourceTree = "<group>"; };
+		9166B0A34E959666D67A1EBC /* Pods-UUToolbox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUToolbox_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		920A42D79F2CFB64E721879D /* UUView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUView.m; sourceTree = "<group>"; };
+		94B52060F34098222D186A70 /* UUDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUDictionary.h; sourceTree = "<group>"; };
+		9790694CBA4D0F37CF00D403 /* UUView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUView.h; sourceTree = "<group>"; };
+		9C2F5F11E990BA7E4F269CFD /* UUToolbox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UUToolbox.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7E118679C7421666211CC0 /* UUToolbox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UUToolbox.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED02080A317E215CC59FA22 /* UUDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUDebug.h; sourceTree = "<group>"; };
+		A019EC2864A5168E1A5A84D7 /* UUProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUProgressView.m; sourceTree = "<group>"; };
+		A19C83AD0EEC303EA243E3B5 /* UUImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUImage.h; sourceTree = "<group>"; };
+		A5C36B081D5AE540B1C36C9A /* UUActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUActionSheet.h; sourceTree = "<group>"; };
+		A60126F4183C4DBA72A460AF /* UURandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UURandom.m; sourceTree = "<group>"; };
+		A63A3489467027494AA3811B /* UUHttpResponseHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUHttpResponseHandler.m; sourceTree = "<group>"; };
+		A8CCB4749FB792D272043203 /* UUAwsS3Client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUAwsS3Client.h; sourceTree = "<group>"; };
+		AC6A030476C7E7951E3E23B0 /* Pods-UUToolbox_Tests-UUToolbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-UUToolbox_Tests-UUToolbox-dummy.m"; path = "../Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox-dummy.m"; sourceTree = "<group>"; };
+		AE03A1D1BBD9D34697652F28 /* UUObjectFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUObjectFactory.m; sourceTree = "<group>"; };
+		B0F2D4459F63D3131E2E6D6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B292E66ABD0C73DBDE72EADC /* Pods-UUToolbox_Example-UUToolbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UUToolbox_Example-UUToolbox.modulemap"; sourceTree = "<group>"; };
+		B4BCFB7DB6E662150DDEB824 /* Pods-UUToolbox_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UUToolbox_Tests-resources.sh"; sourceTree = "<group>"; };
+		B6119569598883679AEB7C23 /* UUObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUObject.m; sourceTree = "<group>"; };
+		B89BE2AABBD53E8F53D73387 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-UUToolbox_Tests-UUToolbox/Info.plist"; sourceTree = "<group>"; };
+		B8C3785EF929670E6062A462 /* UUString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUString.h; sourceTree = "<group>"; };
+		B9876AD07F31E7133E2527C7 /* UUInstagram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUInstagram.h; sourceTree = "<group>"; };
+		BA74FA06DEA1102F6E8D4D87 /* Pods-UUToolbox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UUToolbox_Example.modulemap"; sourceTree = "<group>"; };
+		BC86629E43B13B41B0812A5C /* UUOpenALSoundManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUOpenALSoundManager.h; sourceTree = "<group>"; };
+		BCB2DBA2A43F21B26733F6D4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCBB7A94FBFABAE209E47856 /* UUDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUDevice.h; sourceTree = "<group>"; };
+		C213770144522E622ABA5A8F /* UUCameraView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUCameraView.m; sourceTree = "<group>"; };
+		C2D0CF23A2EA37827B89CF6A /* UUAwsS3Client.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUAwsS3Client.m; sourceTree = "<group>"; };
+		CC20AC94C28D925B85DB9705 /* Pods-UUToolbox_Tests-UUToolbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUToolbox_Tests-UUToolbox.xcconfig"; path = "../Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox.xcconfig"; sourceTree = "<group>"; };
+		CEADCB4B5B9D2D2E9154B14F /* UUHttpSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUHttpSession.m; sourceTree = "<group>"; };
+		CF7B5FA8FE2A51834D99BBED /* Pods-UUToolbox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UUToolbox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF8430F770ACEB17645D3AA0 /* UUImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUImage.m; sourceTree = "<group>"; };
+		CFCB3BC880803530260720DB /* UUDataCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUDataCache.m; sourceTree = "<group>"; };
+		D31DC07990DC70FF77F29F9E /* UUAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUAlert.m; sourceTree = "<group>"; };
+		D42EF2FFC2A6B6FB0A17212E /* UUToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88BBE35BB127483F27A392A /* UUImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUImageCache.m; sourceTree = "<group>"; };
+		DBC24B824C9F888F287EABE4 /* UUActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUActionSheet.m; sourceTree = "<group>"; };
+		DD039CAB05F35F1B86FF9F5C /* UUProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUProgressView.h; sourceTree = "<group>"; };
+		DEB17AF6966186992A7A8D82 /* UUDropbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUDropbox.h; sourceTree = "<group>"; };
+		E35C98A2397EFAA200E3BF73 /* UUFlickr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUFlickr.m; sourceTree = "<group>"; };
+		E4198F2C3157605339274F6E /* Pods-UUToolbox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UUToolbox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E771EA1DF3521973B5BE7AAA /* Pods-UUToolbox_Example-UUToolbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UUToolbox_Example-UUToolbox-dummy.m"; sourceTree = "<group>"; };
+		EF532558A0723602D2FC160A /* UUDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUDate.m; sourceTree = "<group>"; };
+		EF9C956150E7889328F87330 /* UUAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUAlert.h; sourceTree = "<group>"; };
+		EFAECEF99C4197E057D6E517 /* UUDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUDictionary.m; sourceTree = "<group>"; };
+		F26162DDC1992AE0E6A526E2 /* Pods-UUToolbox_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UUToolbox_Tests-environment.h"; sourceTree = "<group>"; };
+		F48EE6D3BBA611225315597E /* Pods-UUToolbox_Tests-UUToolbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UUToolbox_Tests-UUToolbox-prefix.pch"; path = "../Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox-prefix.pch"; sourceTree = "<group>"; };
+		F53C611AA72B9D5878859CD4 /* UUImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUImageView.m; sourceTree = "<group>"; };
+		F6D6C7FA5CA2DCCCCB5FEFF7 /* UURemoteData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UURemoteData.m; sourceTree = "<group>"; };
+		FADAB0231668867A8ABB3A3A /* UUTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUTextField.m; sourceTree = "<group>"; };
+		FC7140396E80189DBD010DA9 /* UUMapView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUMapView.m; sourceTree = "<group>"; };
+		FC926D22976412414C3A7ED8 /* Pods-UUToolbox_Example-UUToolbox-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUToolbox_Example-UUToolbox-Private.xcconfig"; sourceTree = "<group>"; };
+		FF0C3F78B12A99D7A71F791C /* UUVerticalSliderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUVerticalSliderView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		080D71A5E2C72C75E8A1D0EF /* Frameworks */ = {
+		0193C57D2CC6035880C4B338 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B97BBA68CEA2237EE15636F /* Foundation.framework in Frameworks */,
+				F6FC3870FCD7E3F96490963C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22660DD46988F16B2046DC07 /* Frameworks */ = {
+		0A023BDDF5C33753300BC4FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53F54A3876D15052BEAE5D1D /* Frameworks */ = {
+		1DA790A2C0DB9D7626B69D49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC1B38FCB66F6AA59C5DEB02 /* Foundation.framework in Frameworks */,
+				041073BC714184B0B08E1D99 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86812C26740529FC11996162 /* Frameworks */ = {
+		3AC24DC098D57601ABDD4A42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8137CB895FAAD684BF37131E /* Foundation.framework in Frameworks */,
+				F543558973F91C012167347B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7C03A96DE0189A6029CEA6C /* Frameworks */ = {
+		CB8CF5B2E7E85B4894CEB9F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F6DABD0AD2A95D0BCC0B1D6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECAD90171028EB0E80079E97 /* Frameworks */ = {
+		F248ED47F24D0CB2E52F5CB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E546E476E7856B8FDCC30D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1480CC8E7D8AB2F53E54CBB7 /* Pods-UUToolbox_Tests */ = {
+		2B555E1554806C1621FAC4C9 /* UUToolbox */ = {
 			isa = PBXGroup;
 			children = (
-				61B4774469D2466556376611 /* Info.plist */,
-				15193CE71A63FB1EF3F4EEDD /* Pods-UUToolbox_Tests.modulemap */,
-				99BF9E5DA94D37BC544D1621 /* Pods-UUToolbox_Tests-acknowledgements.markdown */,
-				E8CE4F8E91916FA14DE841E4 /* Pods-UUToolbox_Tests-acknowledgements.plist */,
-				BBF0DDD9D51EB3E16A33BA84 /* Pods-UUToolbox_Tests-dummy.m */,
-				10B33230DF310CABB1BD17D5 /* Pods-UUToolbox_Tests-environment.h */,
-				8CBEC754F61B21FDD64E07F0 /* Pods-UUToolbox_Tests-frameworks.sh */,
-				EB037FB6B206D6103B8F1DAE /* Pods-UUToolbox_Tests-resources.sh */,
-				226C3D121DF002C69E480994 /* Pods-UUToolbox_Tests-umbrella.h */,
-				420517D1D737993B0DC2E5DA /* Pods-UUToolbox_Tests.debug.xcconfig */,
-				9910619F1CF3812B4044C2C9 /* Pods-UUToolbox_Tests.release.xcconfig */,
-			);
-			name = "Pods-UUToolbox_Tests";
-			path = "Target Support Files/Pods-UUToolbox_Tests";
-			sourceTree = "<group>";
-		};
-		1CC13CE1D637EAA7404E191E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6C36C5973F4DA89D02D8B22F /* Pods_UUToolbox_Example.framework */,
-				9F6075574A3724687FB395AE /* Pods_UUToolbox_Tests.framework */,
-				EACC8D01F98732A464332CAC /* UUToolbox.bundle */,
-				46901F32C003CCFB537BDD91 /* UUToolbox.bundle */,
-				9EC0D726C2B6D17CFB3EB392 /* UUToolbox.framework */,
-				CACBF3B2C44CC743F8C978A6 /* UUToolbox.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5485AAEF4F2CDD0FBF93B539 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DDC19E77D0C413DB21DEB7F8 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		5B163473835E2D396DD738F6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				62EC294A813656CB2D8EE0DE /* UUToolbox */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5EA1802869A66FD396C6B95F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7CF505DF6D5E72E4C5B5AB6F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		62EC294A813656CB2D8EE0DE /* UUToolbox */ = {
-			isa = PBXGroup;
-			children = (
-				5485AAEF4F2CDD0FBF93B539 /* Pod */,
-				9F86A40363272F987BE8A261 /* Support Files */,
+				5C9D72C804C2598B5A994483 /* Pod */,
+				4A1FF0F96664F933051844DB /* Support Files */,
 			);
 			name = UUToolbox;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		7CF505DF6D5E72E4C5B5AB6F /* iOS */ = {
+		4A1FF0F96664F933051844DB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DFD4A571D919BCDE16351457 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		8F4603F4F18E341F0D1A67F2 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ED9449BA384ED222EB536942 /* Pods-UUToolbox_Example */,
-				1480CC8E7D8AB2F53E54CBB7 /* Pods-UUToolbox_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9F86A40363272F987BE8A261 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				556460670B1E727E29E1C37D /* Info.plist */,
-				E7211D29ADAF39F625A9BDEA /* Info.plist */,
-				CF1B492B86D1B8A2C1B9CA39 /* Pods-UUToolbox_Example-UUToolbox.modulemap */,
-				D245253065DD02C4D9A7B5EB /* Pods-UUToolbox_Example-UUToolbox.xcconfig */,
-				C6C6CBDFC046CCC579BAD4CE /* Pods-UUToolbox_Example-UUToolbox-Private.xcconfig */,
-				7A40244EB9273A6FFEE13841 /* Pods-UUToolbox_Example-UUToolbox-dummy.m */,
-				767B0E0FE04CB6AE4932EDFC /* Pods-UUToolbox_Example-UUToolbox-prefix.pch */,
-				5133F1E4EF99B47F6CEA1F8E /* Pods-UUToolbox_Example-UUToolbox-umbrella.h */,
-				2E36DE022D5D898FD5913C6F /* Pods-UUToolbox_Tests-UUToolbox.modulemap */,
-				7736DD8840CBF9483A1BA914 /* Pods-UUToolbox_Tests-UUToolbox.xcconfig */,
-				6A3FF4DE63056312EE908E47 /* Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig */,
-				75AC2B20055F7740340B5073 /* Pods-UUToolbox_Tests-UUToolbox-dummy.m */,
-				7E898ABA03F671BBA7FEBCBD /* Pods-UUToolbox_Tests-UUToolbox-prefix.pch */,
-				F8BF81E0AEB17EEC00B9E915 /* Pods-UUToolbox_Tests-UUToolbox-umbrella.h */,
+				B0F2D4459F63D3131E2E6D6E /* Info.plist */,
+				B89BE2AABBD53E8F53D73387 /* Info.plist */,
+				B292E66ABD0C73DBDE72EADC /* Pods-UUToolbox_Example-UUToolbox.modulemap */,
+				36E8BCBC3343EC28D3B004BE /* Pods-UUToolbox_Example-UUToolbox.xcconfig */,
+				FC926D22976412414C3A7ED8 /* Pods-UUToolbox_Example-UUToolbox-Private.xcconfig */,
+				E771EA1DF3521973B5BE7AAA /* Pods-UUToolbox_Example-UUToolbox-dummy.m */,
+				8D91399A6ACCF77F27E0962C /* Pods-UUToolbox_Example-UUToolbox-prefix.pch */,
+				6E370C25F96F912DBCF3CCE8 /* Pods-UUToolbox_Example-UUToolbox-umbrella.h */,
+				5643E4F926C40A3F1F0C5655 /* Pods-UUToolbox_Tests-UUToolbox.modulemap */,
+				CC20AC94C28D925B85DB9705 /* Pods-UUToolbox_Tests-UUToolbox.xcconfig */,
+				4973C1EF48E4E57CE73DE803 /* Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig */,
+				AC6A030476C7E7951E3E23B0 /* Pods-UUToolbox_Tests-UUToolbox-dummy.m */,
+				F48EE6D3BBA611225315597E /* Pods-UUToolbox_Tests-UUToolbox-prefix.pch */,
+				23E9708DE95367FB710DF487 /* Pods-UUToolbox_Tests-UUToolbox-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-UUToolbox_Example-UUToolbox";
 			sourceTree = "<group>";
 		};
-		C9C4EE1C6674A308E7646D00 = {
+		55D95ECA5D24B09AE336CB76 /* Pods-UUToolbox_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C59D187AE7545216920726FF /* Podfile */,
-				5B163473835E2D396DD738F6 /* Development Pods */,
-				5EA1802869A66FD396C6B95F /* Frameworks */,
-				1CC13CE1D637EAA7404E191E /* Products */,
-				8F4603F4F18E341F0D1A67F2 /* Targets Support Files */,
+				4940669AEDACF2683D6062D5 /* Info.plist */,
+				5201F251A3AB6996139F5D61 /* Pods-UUToolbox_Tests.modulemap */,
+				5C035B1821B301CA9D59A9BD /* Pods-UUToolbox_Tests-acknowledgements.markdown */,
+				1DF85E1AAB60384A62D0AF72 /* Pods-UUToolbox_Tests-acknowledgements.plist */,
+				8E7B714F76B87BD314FFC01A /* Pods-UUToolbox_Tests-dummy.m */,
+				F26162DDC1992AE0E6A526E2 /* Pods-UUToolbox_Tests-environment.h */,
+				546441E6BD017F008364B8C4 /* Pods-UUToolbox_Tests-frameworks.sh */,
+				B4BCFB7DB6E662150DDEB824 /* Pods-UUToolbox_Tests-resources.sh */,
+				3B06B5F7A03A0ADDC1A6C2DE /* Pods-UUToolbox_Tests-umbrella.h */,
+				62C10D49E75F8917895EA92B /* Pods-UUToolbox_Tests.debug.xcconfig */,
+				9166B0A34E959666D67A1EBC /* Pods-UUToolbox_Tests.release.xcconfig */,
 			);
+			name = "Pods-UUToolbox_Tests";
+			path = "Target Support Files/Pods-UUToolbox_Tests";
 			sourceTree = "<group>";
 		};
-		DDC19E77D0C413DB21DEB7F8 /* Classes */ = {
+		5C9D72C804C2598B5A994483 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AC903E24B6BE2F0CD28012F9 /* UUActionSheet.h */,
-				67F7DA3F52085357950792EB /* UUActionSheet.m */,
-				FF3C831D06F87EE634600B89 /* UUAlert.h */,
-				B8D49A4CDC28F02E12EE4E02 /* UUAlert.m */,
-				2BEEBF0B99AFF16473EBF581 /* UUAwsS3Client.h */,
-				59DA84E84E8344A5F99B50F2 /* UUAwsS3Client.m */,
-				7241DD25895236F20BECBCDA /* UUCameraView.h */,
-				39896FAC96FF389D98A2CF6B /* UUCameraView.m */,
-				11A4D640DD75AE40ABD3B516 /* UUColor.h */,
-				C0DFAFF42E1FC59361258AF0 /* UUColor.m */,
-				59C63FEEB71831F537EFE9ED /* UUCoreData.h */,
-				0FEDA175CE841BC0C3898E9E /* UUCoreData.m */,
-				39F351F0F0A8626D5738315E /* UUDataCache.h */,
-				24A83B74151B8C3550CFA327 /* UUDataCache.m */,
-				78069A3E4C9D5D3FFDAF47D1 /* UUDate.h */,
-				98767DCE8FDC10BDEF774DF1 /* UUDate.m */,
-				E15EF7A9BE4E949CAD35AAA0 /* UUDebug.h */,
-				1E26DA29C3E059E5B941C561 /* UUDebug.m */,
-				EE466F151D32D516A6776074 /* UUDevice.h */,
-				5CE13F471EC5CD1BFDEE016B /* UUDevice.m */,
-				6549A52F5633831711A4A5A1 /* UUDictionary.h */,
-				1FDC03411374946310A53215 /* UUDictionary.m */,
-				1D07FCFF418704A8179B45BA /* UUDropbox.h */,
-				ADC5E5E22A0C2B373AEB34F2 /* UUDropbox.m */,
-				99C169CDD7F47F3C326E485D /* UUFlickr.h */,
-				9E2BE8D9B7567F5CD01A761E /* UUFlickr.m */,
-				624CC07466B015B8567AC4DE /* UUHttpClient.h */,
-				3A170D1AF96856AABCA963CB /* UUHttpClient.m */,
-				A6E976F2ABDCC75A90119B07 /* UUHttpResponseHandler.h */,
-				8319C07F6934C3CE9D8C4919 /* UUHttpResponseHandler.m */,
-				EBBDBAB4E693E2554FA5029E /* UUHttpSession.h */,
-				091414DF7035F611603E41C3 /* UUHttpSession.m */,
-				0013EA82FAB5F35F63B81E05 /* UUImage.h */,
-				13832199B82A5CC229EECFE3 /* UUImage.m */,
-				3AE03E29013109A48C236A7E /* UUImageCache.h */,
-				4F05DDCFDA5216B3321F599A /* UUImageCache.m */,
-				68B1D8DD4F2BB0D84852F0AB /* UUImageView.h */,
-				9D30F3C86B9C514D7EFB382A /* UUImageView.m */,
-				AB688F15423874C3BA489B82 /* UUInstagram.h */,
-				380E8FFEACFD83F5CB95448F /* UUInstagram.m */,
-				A776552D351C06791A870D5D /* UULocation.h */,
-				6C73ABFC22AB03FF2746857E /* UULocation.m */,
-				8F9CAC3D9A5DEF9CC310AD51 /* UULocationManager.h */,
-				9DBCBB9F99AA07F4BF333D98 /* UULocationManager.m */,
-				CD4D7CFAF46F904A08A9FDC1 /* UUMapView.h */,
-				C6522847E8972E1DE77A643C /* UUMapView.m */,
-				6579D3DFB207D6F1DA0159F9 /* UUObject.h */,
-				1DA0328CA5019D074AE36C8A /* UUObject.m */,
-				471C7CFBDA31F2DCFE6CE0CB /* UUObjectFactory.h */,
-				EF3807BAB47BFDCBB2CEEC73 /* UUObjectFactory.m */,
-				D3F7F572B3C7392E1DC140ED /* UUOpenALSoundManager.h */,
-				A32AEEFFA72127285DB1FF9F /* UUOpenALSoundManager.m */,
-				E0C580972D2D354AE732FF55 /* UUProgressView.h */,
-				66FCBFBA5056EC325358ED4C /* UUProgressView.m */,
-				04C6E98894543D5F4F67CF37 /* UURandom.h */,
-				D8B86613E6C3B166CD2E3AA2 /* UURandom.m */,
-				F6FA49580006A0F34010DF43 /* UUReachability.h */,
-				A13982A0CAA53CAAE335E909 /* UUReachability.m */,
-				8745E2AFC9B0BD211380D08E /* UURemoteData.h */,
-				6CFD322B9306351F7B408BD4 /* UURemoteData.m */,
-				F8E6C0A91705D3600AC31BC8 /* UUString.h */,
-				EFBCB2D2E256C86531502653 /* UUString.m */,
-				BFBB7E6292ADEC0BE7FDEB79 /* UUTextField.h */,
-				629F924AC02EE7828AA7D23D /* UUTextField.m */,
-				B5643A510C8A8E8E87D1282E /* UUVerticalSliderView.h */,
-				2D1A04D38E901C4901A4F2B6 /* UUVerticalSliderView.m */,
-				69D6A0C7C5F4BF5B6BB193DC /* UUView.h */,
-				B4D66960E10C6E2603EAB966 /* UUView.m */,
+				D6BF5E47BDAC5C3781A697AF /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A07DA83A534E87F530C604FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9C9DB558AB4A6FEABAC5998 /* Pods-UUToolbox_Example */,
+				55D95ECA5D24B09AE336CB76 /* Pods-UUToolbox_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A9E8DF4C0E8D9DD9A53352E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E3B53DE1B919EE7B2F1539 /* Pods_UUToolbox_Example.framework */,
+				839B4B4516A6A046E04B3616 /* Pods_UUToolbox_Tests.framework */,
+				9C2F5F11E990BA7E4F269CFD /* UUToolbox.bundle */,
+				9D7E118679C7421666211CC0 /* UUToolbox.bundle */,
+				6ED01AA28A8EBDD94EC08831 /* UUToolbox.framework */,
+				D42EF2FFC2A6B6FB0A17212E /* UUToolbox.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF28D1D718E76CEE3C5E978D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D00ED2AE824C3C07DDA210F6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC72A423E8A437A9814E7CDB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B555E1554806C1621FAC4C9 /* UUToolbox */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D00ED2AE824C3C07DDA210F6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3164FF9DED9423AF457D621F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6BF5E47BDAC5C3781A697AF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5C36B081D5AE540B1C36C9A /* UUActionSheet.h */,
+				DBC24B824C9F888F287EABE4 /* UUActionSheet.m */,
+				EF9C956150E7889328F87330 /* UUAlert.h */,
+				D31DC07990DC70FF77F29F9E /* UUAlert.m */,
+				A8CCB4749FB792D272043203 /* UUAwsS3Client.h */,
+				C2D0CF23A2EA37827B89CF6A /* UUAwsS3Client.m */,
+				2A4EB443835819DD907C526D /* UUCameraView.h */,
+				C213770144522E622ABA5A8F /* UUCameraView.m */,
+				484097559FD200DE42AFB4DA /* UUColor.h */,
+				4855EE2A0FABA7C1425F1230 /* UUColor.m */,
+				4D5C38D795C480B073D74E58 /* UUCoreData.h */,
+				5DE9D5A9BE8088514DC9FA03 /* UUCoreData.m */,
+				106D3A44E220F1DE42AD4A82 /* UUDataCache.h */,
+				CFCB3BC880803530260720DB /* UUDataCache.m */,
+				476E6D4D375073D8F52D7293 /* UUDate.h */,
+				EF532558A0723602D2FC160A /* UUDate.m */,
+				9ED02080A317E215CC59FA22 /* UUDebug.h */,
+				54367F0856FEA808EB1308A4 /* UUDebug.m */,
+				BCBB7A94FBFABAE209E47856 /* UUDevice.h */,
+				6CBEE4EA1DE1880A626B932D /* UUDevice.m */,
+				94B52060F34098222D186A70 /* UUDictionary.h */,
+				EFAECEF99C4197E057D6E517 /* UUDictionary.m */,
+				DEB17AF6966186992A7A8D82 /* UUDropbox.h */,
+				19424E95FC637C00CBE1BC21 /* UUDropbox.m */,
+				2A75355B4CFB084CACFD59B3 /* UUFlickr.h */,
+				E35C98A2397EFAA200E3BF73 /* UUFlickr.m */,
+				869213DECC1FBFBD4A23F86A /* UUHttpClient.h */,
+				8805D07360E3D2726A9B8D06 /* UUHttpClient.m */,
+				462D0E2E88B0AC3BBDBA8E48 /* UUHttpResponseHandler.h */,
+				A63A3489467027494AA3811B /* UUHttpResponseHandler.m */,
+				1941254C9BA84216552A112D /* UUHttpSession.h */,
+				CEADCB4B5B9D2D2E9154B14F /* UUHttpSession.m */,
+				A19C83AD0EEC303EA243E3B5 /* UUImage.h */,
+				CF8430F770ACEB17645D3AA0 /* UUImage.m */,
+				4FF0A61AB6AE396D41279B51 /* UUImageCache.h */,
+				D88BBE35BB127483F27A392A /* UUImageCache.m */,
+				4DC1864040C2493B753782BD /* UUImageView.h */,
+				F53C611AA72B9D5878859CD4 /* UUImageView.m */,
+				B9876AD07F31E7133E2527C7 /* UUInstagram.h */,
+				7825AEEB138E87BEFCB3A008 /* UUInstagram.m */,
+				603484BEC9400D164261A717 /* UULocation.h */,
+				6242F4270D43784BA854157D /* UULocation.m */,
+				5C4AE0077F4A0B6916C34FF1 /* UULocationManager.h */,
+				6E59110979994C1434AA920B /* UULocationManager.m */,
+				6B0FEDBD412775A60B1FD200 /* UUMapView.h */,
+				FC7140396E80189DBD010DA9 /* UUMapView.m */,
+				7FA5ED4D085F3986AAE52E45 /* UUObject.h */,
+				B6119569598883679AEB7C23 /* UUObject.m */,
+				74B856779F8777228AA4612B /* UUObjectFactory.h */,
+				AE03A1D1BBD9D34697652F28 /* UUObjectFactory.m */,
+				BC86629E43B13B41B0812A5C /* UUOpenALSoundManager.h */,
+				4F2EC4C06DC36C41A7C0D3B4 /* UUOpenALSoundManager.m */,
+				DD039CAB05F35F1B86FF9F5C /* UUProgressView.h */,
+				A019EC2864A5168E1A5A84D7 /* UUProgressView.m */,
+				8ABAA1973015E9F99AD8E7E2 /* UURandom.h */,
+				A60126F4183C4DBA72A460AF /* UURandom.m */,
+				129E71DCB96BB0B81403D91A /* UUReachability.h */,
+				3FBA513F0650D99171050295 /* UUReachability.m */,
+				774B580E49E7C6DAD61721F1 /* UURemoteData.h */,
+				F6D6C7FA5CA2DCCCCB5FEFF7 /* UURemoteData.m */,
+				B8C3785EF929670E6062A462 /* UUString.h */,
+				3DF6F02683FDBADCA289640D /* UUString.m */,
+				377CC7A0FFA8A3DEA0AE3DD8 /* UUTextField.h */,
+				FADAB0231668867A8ABB3A3A /* UUTextField.m */,
+				FF0C3F78B12A99D7A71F791C /* UUVerticalSliderView.h */,
+				1741C2FE73B478C4872CEFF7 /* UUVerticalSliderView.m */,
+				9790694CBA4D0F37CF00D403 /* UUView.h */,
+				920A42D79F2CFB64E721879D /* UUView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		ED9449BA384ED222EB536942 /* Pods-UUToolbox_Example */ = {
+		DC22B55B2AA4F16321F222EF = {
 			isa = PBXGroup;
 			children = (
-				D6FACACDFC93ACB47B7B951C /* Info.plist */,
-				3B33B420A7C19CA5CF5162D1 /* Pods-UUToolbox_Example.modulemap */,
-				75A05890DFDDB3EA46B2ABDD /* Pods-UUToolbox_Example-acknowledgements.markdown */,
-				88C6B659CEA0C965FF8F13D8 /* Pods-UUToolbox_Example-acknowledgements.plist */,
-				2B6B28D3D66F551D953D440F /* Pods-UUToolbox_Example-dummy.m */,
-				229237532DD4FD20B79B32BD /* Pods-UUToolbox_Example-environment.h */,
-				52619B9CC148D315F8911DBA /* Pods-UUToolbox_Example-frameworks.sh */,
-				7D16D7EC9CFA859E72CDD502 /* Pods-UUToolbox_Example-resources.sh */,
-				659D303E6F7557DDAB70B546 /* Pods-UUToolbox_Example-umbrella.h */,
-				3B48AC0C92E2FC09055FD194 /* Pods-UUToolbox_Example.debug.xcconfig */,
-				E793CB13C565D61C1E71A73A /* Pods-UUToolbox_Example.release.xcconfig */,
+				BCB2DBA2A43F21B26733F6D4 /* Podfile */,
+				CC72A423E8A437A9814E7CDB /* Development Pods */,
+				AF28D1D718E76CEE3C5E978D /* Frameworks */,
+				A9E8DF4C0E8D9DD9A53352E9 /* Products */,
+				A07DA83A534E87F530C604FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F9C9DB558AB4A6FEABAC5998 /* Pods-UUToolbox_Example */ = {
+			isa = PBXGroup;
+			children = (
+				89FB7E7D6BB33838AE8C3A4C /* Info.plist */,
+				BA74FA06DEA1102F6E8D4D87 /* Pods-UUToolbox_Example.modulemap */,
+				E4198F2C3157605339274F6E /* Pods-UUToolbox_Example-acknowledgements.markdown */,
+				CF7B5FA8FE2A51834D99BBED /* Pods-UUToolbox_Example-acknowledgements.plist */,
+				7CA2895244C6A6B94E4EB4AD /* Pods-UUToolbox_Example-dummy.m */,
+				2734632EF233456999D1ACB9 /* Pods-UUToolbox_Example-environment.h */,
+				59994B94482C9B7AF0BBE15F /* Pods-UUToolbox_Example-frameworks.sh */,
+				56084365681C95B2A57F3804 /* Pods-UUToolbox_Example-resources.sh */,
+				0C63524B5F0938BA046D9884 /* Pods-UUToolbox_Example-umbrella.h */,
+				85396CFED0314961FC4D97C7 /* Pods-UUToolbox_Example.debug.xcconfig */,
+				409AC1A4FFC74D467E16B8F4 /* Pods-UUToolbox_Example.release.xcconfig */,
 			);
 			name = "Pods-UUToolbox_Example";
 			path = "Target Support Files/Pods-UUToolbox_Example";
@@ -568,207 +568,135 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		104DA9BEEA3AE61EA76DB9FD /* Headers */ = {
+		B6E0BFE9E4214103DDBCA913 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6E716D76188A9B692E70219 /* Pods-UUToolbox_Example-UUToolbox-umbrella.h in Headers */,
-				8875D1CD0B5D4DE887D80FC2 /* UUActionSheet.h in Headers */,
-				D8A4C929791D842BC28A4ECF /* UUAlert.h in Headers */,
-				DAA9F6A51BCE03315AD39A06 /* UUAwsS3Client.h in Headers */,
-				7636FB7582B0CD5C9B7C1539 /* UUCameraView.h in Headers */,
-				5C185B4671A3B15CC699D0F7 /* UUColor.h in Headers */,
-				D7D0399C66FA98B3BAAF93E4 /* UUCoreData.h in Headers */,
-				753EB89DE951DAC4F0C739C3 /* UUDataCache.h in Headers */,
-				B4603A320AF5284A1E9027D0 /* UUDate.h in Headers */,
-				6BD88A450CFDB304CA1087DF /* UUDebug.h in Headers */,
-				A1F246531965AEE11B6C4C7E /* UUDevice.h in Headers */,
-				B3399A62C23262655BD54FAD /* UUDictionary.h in Headers */,
-				F4FF0FC6796F235A233725D6 /* UUDropbox.h in Headers */,
-				F52F2CF66FF93EAE33B217C8 /* UUFlickr.h in Headers */,
-				12ED76788B3DF5972416F63B /* UUHttpClient.h in Headers */,
-				93CA0626C1EFE62AC987388D /* UUHttpResponseHandler.h in Headers */,
-				FDDBD9B19FC2B6538F324564 /* UUHttpSession.h in Headers */,
-				4B1FE523EE8DBEC6E03D1457 /* UUImage.h in Headers */,
-				9D8B60D0E18F776BB936F187 /* UUImageCache.h in Headers */,
-				72B6CF0B939AB49518C9A06B /* UUImageView.h in Headers */,
-				384B05F7B73B16FDED68EFD0 /* UUInstagram.h in Headers */,
-				EF627AA6A7122DC5376C6E69 /* UULocation.h in Headers */,
-				AED780E58A9D39D8301F1E99 /* UULocationManager.h in Headers */,
-				C5C06F4595CBBE0206F22993 /* UUMapView.h in Headers */,
-				8C724E1CE8B9D6D5EF96FFA6 /* UUObject.h in Headers */,
-				9C1FBD2E3E7BAF27E6CF6683 /* UUObjectFactory.h in Headers */,
-				1774948D295521AC1B7DB178 /* UUOpenALSoundManager.h in Headers */,
-				62E82426D33984987FB45C54 /* UUProgressView.h in Headers */,
-				F1DCD0B005BBAC7EB22FE131 /* UURandom.h in Headers */,
-				797AC005BAC8573A482E510A /* UUReachability.h in Headers */,
-				4235F237DFA156B38FEAD4FE /* UURemoteData.h in Headers */,
-				9F5819A15401E567E81EA607 /* UUString.h in Headers */,
-				762F0A59D392DE98E3DADA45 /* UUTextField.h in Headers */,
-				435C78E43F719B1B24C51854 /* UUVerticalSliderView.h in Headers */,
-				1D68C82D48DEC9A763941672 /* UUView.h in Headers */,
+				FA5D6DAB1BDD305B13EE2F41 /* Pods-UUToolbox_Tests-UUToolbox-umbrella.h in Headers */,
+				1C164A669762FDCE4AC910FF /* UUActionSheet.h in Headers */,
+				970260D7A178A255A7BCFEFC /* UUAlert.h in Headers */,
+				7C00C5499803A31A534D9E78 /* UUAwsS3Client.h in Headers */,
+				3AF35F5BC4AF2C68F86756F7 /* UUCameraView.h in Headers */,
+				544E7322939AA3BC6CAACFE0 /* UUColor.h in Headers */,
+				0783EEC26D2BF83E8522EB7F /* UUCoreData.h in Headers */,
+				516DD9DCFAB8F7C6A1D87789 /* UUDataCache.h in Headers */,
+				F4DCEDCE00F9BFA375401F52 /* UUDate.h in Headers */,
+				6773911FC8D90A3F7163E7A1 /* UUDebug.h in Headers */,
+				732DF2171AA6EACC6274B5F6 /* UUDevice.h in Headers */,
+				92D15A59E5C99B4C935AFA25 /* UUDictionary.h in Headers */,
+				615953F82A30069B3A3361A2 /* UUDropbox.h in Headers */,
+				9BB492A37BD32A3A3F5D57F1 /* UUFlickr.h in Headers */,
+				63AFC97D7D12F6E6649FA6AF /* UUHttpClient.h in Headers */,
+				B754A3E89DF707CBB00D4C18 /* UUHttpResponseHandler.h in Headers */,
+				F4183C3289087F23BC95F52E /* UUHttpSession.h in Headers */,
+				FB90064A9E3B9E5788543F8B /* UUImage.h in Headers */,
+				0177C04AD7EC4FB42C529AFB /* UUImageCache.h in Headers */,
+				AE36536AC9F798201AF346E2 /* UUImageView.h in Headers */,
+				D4B82017AFE82CFC507EA331 /* UUInstagram.h in Headers */,
+				5A2DCDE5F214F8C6CE7B8972 /* UULocation.h in Headers */,
+				C348D28E98CE8547FDE8381C /* UULocationManager.h in Headers */,
+				27BE8A424B8850E7C484DB8A /* UUMapView.h in Headers */,
+				12729981D53AA51505373B97 /* UUObject.h in Headers */,
+				47443CA816BF5053DEE713AE /* UUObjectFactory.h in Headers */,
+				CC3033611F09E7D8939CE7E2 /* UUOpenALSoundManager.h in Headers */,
+				DD9E4EE339838A5262736C21 /* UUProgressView.h in Headers */,
+				D6C58AAC1986BC625BA3C0A2 /* UURandom.h in Headers */,
+				08D2B40B75C2A6C90D3D9E34 /* UUReachability.h in Headers */,
+				000D87C38E7DAE43D953FD6F /* UURemoteData.h in Headers */,
+				66EF20A9A82E6891006DE087 /* UUString.h in Headers */,
+				98A554393FA9C7DECB219EA7 /* UUTextField.h in Headers */,
+				ADE8A53776B8B0A9ADCCCC2F /* UUVerticalSliderView.h in Headers */,
+				D22B40A374CE1F1146984067 /* UUView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50FF970BB9E1339EBEBC8BA0 /* Headers */ = {
+		CC994B3EC6F94991FB59A4B1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A92424A8F445162FF1206BCB /* Pods-UUToolbox_Tests-umbrella.h in Headers */,
+				D030DA32D96A60BED505A5F1 /* Pods-UUToolbox_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		558772581A4FC83BD94D6CEE /* Headers */ = {
+		D3A4C2FED1E364CD5A1F3632 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36341BC7E5FB59802A99137E /* Pods-UUToolbox_Example-umbrella.h in Headers */,
+				6B7B365986F4EA3A5C62A781 /* Pods-UUToolbox_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C35DC9C913A2EAA122D393C5 /* Headers */ = {
+		FD0B0F82CC27CC1532CB0D93 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BBDD6CCC6616BB1F90AE03 /* Pods-UUToolbox_Tests-UUToolbox-umbrella.h in Headers */,
-				53AB6502031264EA6E73675C /* UUActionSheet.h in Headers */,
-				E48D32A8990BCF4B478F1916 /* UUAlert.h in Headers */,
-				38CA08E4ADB5E827716A8DD4 /* UUAwsS3Client.h in Headers */,
-				201B4CF65B66D22112EEAFA2 /* UUCameraView.h in Headers */,
-				DF6F9BCB5A7373ABFF669BC5 /* UUColor.h in Headers */,
-				ABB6D564C7E4AA35CFF3E8FC /* UUCoreData.h in Headers */,
-				B1AB1C076B22BCFECE2114B8 /* UUDataCache.h in Headers */,
-				358945416DA82C7FD64E346D /* UUDate.h in Headers */,
-				1CFFECEF3E602F5FFEBD887A /* UUDebug.h in Headers */,
-				81D50DC13C77491C2823DCDF /* UUDevice.h in Headers */,
-				18F42D1E4227B803FE1F56A0 /* UUDictionary.h in Headers */,
-				DC8E1C0DA32E53184D7B80D8 /* UUDropbox.h in Headers */,
-				DA61C48B4F1B5ACE2977EE67 /* UUFlickr.h in Headers */,
-				9E19A3D0D0EC2E35496D2492 /* UUHttpClient.h in Headers */,
-				7BD8A790DB7A29731ABD8261 /* UUHttpResponseHandler.h in Headers */,
-				FF8361C6534854877B7130A0 /* UUHttpSession.h in Headers */,
-				0406734A214030DC982D3EC2 /* UUImage.h in Headers */,
-				10BD80B1A51DC36125ACA077 /* UUImageCache.h in Headers */,
-				A36341DF4669A136D92BC8C1 /* UUImageView.h in Headers */,
-				AA33ED579377E14BF287DD5F /* UUInstagram.h in Headers */,
-				0BA406411746D0E7DEC1CF29 /* UULocation.h in Headers */,
-				5D9B5F65A0622D23B5D978AA /* UULocationManager.h in Headers */,
-				04E00DA82296241085C04B2F /* UUMapView.h in Headers */,
-				00562ADD97E79B309C9DC83B /* UUObject.h in Headers */,
-				3EA8E4CECFCC0F434EAF1E63 /* UUObjectFactory.h in Headers */,
-				A8795DD451CF403F9F81E35C /* UUOpenALSoundManager.h in Headers */,
-				FEE82DD5F34B58FD7100E02C /* UUProgressView.h in Headers */,
-				D050C8A696DE3308FAB5A4D4 /* UURandom.h in Headers */,
-				9170159768DF0046E214A196 /* UUReachability.h in Headers */,
-				0D7C693F323CB22ADD9B621D /* UURemoteData.h in Headers */,
-				202E37443AA0F52BBB6DC3B4 /* UUString.h in Headers */,
-				F0D5DEE6E6C35E57E4ADBBA6 /* UUTextField.h in Headers */,
-				742DFA27B304E1C990F01278 /* UUVerticalSliderView.h in Headers */,
-				02343E63A7F3B440011B4538 /* UUView.h in Headers */,
+				480631C6801CA48B9431ED51 /* Pods-UUToolbox_Example-UUToolbox-umbrella.h in Headers */,
+				77835F86F6841BC1457B5715 /* UUActionSheet.h in Headers */,
+				35E8ED3A1FFB966B420C29B2 /* UUAlert.h in Headers */,
+				7ACD21AE15AACE84866D8B1D /* UUAwsS3Client.h in Headers */,
+				B7AE3EF74332FC874EB1902B /* UUCameraView.h in Headers */,
+				B8E9CDFA4A81A0F2C3ACE306 /* UUColor.h in Headers */,
+				2C73A8EE4FFFEAD626998E60 /* UUCoreData.h in Headers */,
+				1DC3D31EAC2EA4B73D834E0D /* UUDataCache.h in Headers */,
+				77CEA1638A99BEA0E9A356E1 /* UUDate.h in Headers */,
+				3471C046CF7411C999E98C10 /* UUDebug.h in Headers */,
+				5761773BF1670B9608C8EA0B /* UUDevice.h in Headers */,
+				A5F6D6F6AAACF3B60C3303FA /* UUDictionary.h in Headers */,
+				6DAF54F806B4CA7F94F396F6 /* UUDropbox.h in Headers */,
+				BBCE908C30DA9F9BBB433E99 /* UUFlickr.h in Headers */,
+				3AF3794F4B942D15C4F74758 /* UUHttpClient.h in Headers */,
+				DF317FF7AF8CAACDE5433AAC /* UUHttpResponseHandler.h in Headers */,
+				DA69726782A8D475B28A8E71 /* UUHttpSession.h in Headers */,
+				EB4FB1ADFA577E9D6D94B809 /* UUImage.h in Headers */,
+				C6A9648AD2FD97FB1B8C0C90 /* UUImageCache.h in Headers */,
+				8F499933BEECCB5A2887AC28 /* UUImageView.h in Headers */,
+				5D23CB3A7CBC6D394107CECB /* UUInstagram.h in Headers */,
+				E2F1B4EC9E159A31C58CCAE5 /* UULocation.h in Headers */,
+				44CA1F3A0751E169AB76307B /* UULocationManager.h in Headers */,
+				241CDF087840E9EA55D60BB2 /* UUMapView.h in Headers */,
+				FA084CD9CB9F4EB4B3EAB12F /* UUObject.h in Headers */,
+				782CF8381EA2AA83198D3185 /* UUObjectFactory.h in Headers */,
+				EE6BAD1411A4C8C85396A0C3 /* UUOpenALSoundManager.h in Headers */,
+				0922A137725495262D4988BA /* UUProgressView.h in Headers */,
+				BBC3D668DA02E117BC26C68B /* UURandom.h in Headers */,
+				3CAAD8EDC489521E678461B4 /* UUReachability.h in Headers */,
+				7D93A309E7E2A9E03CD86935 /* UURemoteData.h in Headers */,
+				BDAF74C17A79345811BCD519 /* UUString.h in Headers */,
+				8D7AE248DD2F92976DF5B55F /* UUTextField.h in Headers */,
+				8F92D05E71D7F7B18F5DF073 /* UUVerticalSliderView.h in Headers */,
+				38AC8D4EA37F93AE67C685CE /* UUView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		041A7FACF70A7C2CFD2D0C85 /* Pods-UUToolbox_Example */ = {
+		175F7E029AA49E06AEE2B387 /* Pods-UUToolbox_Example-UUToolbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29BF310B909BDD107FFDD276 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Example" */;
+			buildConfigurationList = D9F46FEFEE734417FD2EB2AB /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Example-UUToolbox" */;
 			buildPhases = (
-				FA29C78F754AA2C9E0321864 /* Sources */,
-				86812C26740529FC11996162 /* Frameworks */,
-				558772581A4FC83BD94D6CEE /* Headers */,
+				0768F8A719A50104DC717805 /* Sources */,
+				F248ED47F24D0CB2E52F5CB1 /* Frameworks */,
+				BAF756A7BFF02303DA5DBB10 /* Resources */,
+				FD0B0F82CC27CC1532CB0D93 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D7669ED45BA0E11942E4FE33 /* PBXTargetDependency */,
-			);
-			name = "Pods-UUToolbox_Example";
-			productName = "Pods-UUToolbox_Example";
-			productReference = 6C36C5973F4DA89D02D8B22F /* Pods_UUToolbox_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		30476C5BEAB6687D8B6B45CF /* Pods-UUToolbox_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ABF13205ED400D0082762D38 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Tests" */;
-			buildPhases = (
-				70DCB2EB3670A3F2E1AD4C72 /* Sources */,
-				53F54A3876D15052BEAE5D1D /* Frameworks */,
-				50FF970BB9E1339EBEBC8BA0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0196C691F0177A55E25E7CE5 /* PBXTargetDependency */,
-			);
-			name = "Pods-UUToolbox_Tests";
-			productName = "Pods-UUToolbox_Tests";
-			productReference = 9F6075574A3724687FB395AE /* Pods_UUToolbox_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		68E0341462F4B536A54C3D1B /* Pods-UUToolbox_Example-UUToolbox */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3CD8F03E74F459A92D08BC3A /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Example-UUToolbox" */;
-			buildPhases = (
-				8E47CC83E40BEFFAE561F37B /* Sources */,
-				080D71A5E2C72C75E8A1D0EF /* Frameworks */,
-				EFA18E5A53D87F9824D40BB8 /* Resources */,
-				104DA9BEEA3AE61EA76DB9FD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EC2B267E7A40C01637DF5AD2 /* PBXTargetDependency */,
+				940F1A01CDC6502BE791173A /* PBXTargetDependency */,
 			);
 			name = "Pods-UUToolbox_Example-UUToolbox";
 			productName = "Pods-UUToolbox_Example-UUToolbox";
-			productReference = CACBF3B2C44CC743F8C978A6 /* UUToolbox.framework */;
+			productReference = D42EF2FFC2A6B6FB0A17212E /* UUToolbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6DCA093301199C5C60C03FA9 /* Pods-UUToolbox_Example-UUToolbox-UUToolbox */ = {
+		3665F67ED99EE728B2D34AB2 /* Pods-UUToolbox_Tests-UUToolbox-UUToolbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 429C415D7C1A4F8345B87EA1 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Example-UUToolbox-UUToolbox" */;
+			buildConfigurationList = 139A351AB7DF292A6FB50E78 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Tests-UUToolbox-UUToolbox" */;
 			buildPhases = (
-				F3B784C91E00B89B6B256E5F /* Sources */,
-				ECAD90171028EB0E80079E97 /* Frameworks */,
-				913092EA865D33067A762040 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-UUToolbox_Example-UUToolbox-UUToolbox";
-			productName = "Pods-UUToolbox_Example-UUToolbox-UUToolbox";
-			productReference = EACC8D01F98732A464332CAC /* UUToolbox.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		7BE4DE4CD73419B3EBECC03E /* Pods-UUToolbox_Tests-UUToolbox */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FCB97E722B7AFF4F4A685361 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Tests-UUToolbox" */;
-			buildPhases = (
-				272FB7C59850A08225E5B774 /* Sources */,
-				E7C03A96DE0189A6029CEA6C /* Frameworks */,
-				638D9A386F581ACE096E4A96 /* Resources */,
-				C35DC9C913A2EAA122D393C5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6C560D9E7AC881A3F470F918 /* PBXTargetDependency */,
-			);
-			name = "Pods-UUToolbox_Tests-UUToolbox";
-			productName = "Pods-UUToolbox_Tests-UUToolbox";
-			productReference = 9EC0D726C2B6D17CFB3EB392 /* UUToolbox.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		827B5A1A72A5E47BAF9881AE /* Pods-UUToolbox_Tests-UUToolbox-UUToolbox */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E8A33F753C7E486981C5BB10 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Tests-UUToolbox-UUToolbox" */;
-			buildPhases = (
-				8BC66E348A336FFBED059A68 /* Sources */,
-				22660DD46988F16B2046DC07 /* Frameworks */,
-				000B80B2887F322EC27A7450 /* Resources */,
+				794905243E36B835668A0F55 /* Sources */,
+				0A023BDDF5C33753300BC4FF /* Frameworks */,
+				5468E38BD09CA763453B25DB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -776,249 +704,292 @@
 			);
 			name = "Pods-UUToolbox_Tests-UUToolbox-UUToolbox";
 			productName = "Pods-UUToolbox_Tests-UUToolbox-UUToolbox";
-			productReference = 46901F32C003CCFB537BDD91 /* UUToolbox.bundle */;
+			productReference = 9D7E118679C7421666211CC0 /* UUToolbox.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		3CB9C0AC9C0DD9737113CB51 /* Pods-UUToolbox_Example-UUToolbox-UUToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE3E649F00CAD8B98E7BA40 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Example-UUToolbox-UUToolbox" */;
+			buildPhases = (
+				3DE01A642E046B2CA3AC289F /* Sources */,
+				CB8CF5B2E7E85B4894CEB9F8 /* Frameworks */,
+				F89BB759DB532A9228AAE78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UUToolbox_Example-UUToolbox-UUToolbox";
+			productName = "Pods-UUToolbox_Example-UUToolbox-UUToolbox";
+			productReference = 9C2F5F11E990BA7E4F269CFD /* UUToolbox.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5CEDD639AA04CFFFA4FA8F73 /* Pods-UUToolbox_Tests-UUToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E1CA561880FFB52FB9D76F /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Tests-UUToolbox" */;
+			buildPhases = (
+				4543206522E61ED6A2FB45E8 /* Sources */,
+				0193C57D2CC6035880C4B338 /* Frameworks */,
+				28C74654C45A4EC61554407E /* Resources */,
+				B6E0BFE9E4214103DDBCA913 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC45A31EAD031AE5E4D2446 /* PBXTargetDependency */,
+			);
+			name = "Pods-UUToolbox_Tests-UUToolbox";
+			productName = "Pods-UUToolbox_Tests-UUToolbox";
+			productReference = 6ED01AA28A8EBDD94EC08831 /* UUToolbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91CF5367CA3063DB5EED51DE /* Pods-UUToolbox_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1A02447C1B0B9CDA836D9C /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Tests" */;
+			buildPhases = (
+				78680F43A99CDE7105E57A5F /* Sources */,
+				3AC24DC098D57601ABDD4A42 /* Frameworks */,
+				D3A4C2FED1E364CD5A1F3632 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF031AB51CD747E9F55F58EE /* PBXTargetDependency */,
+			);
+			name = "Pods-UUToolbox_Tests";
+			productName = "Pods-UUToolbox_Tests";
+			productReference = 839B4B4516A6A046E04B3616 /* Pods_UUToolbox_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED8E9144F17C06B963DD462B /* Pods-UUToolbox_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277C0E4E4C22D0D72D2ED535 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Example" */;
+			buildPhases = (
+				579881738A18840D8660090F /* Sources */,
+				1DA790A2C0DB9D7626B69D49 /* Frameworks */,
+				CC994B3EC6F94991FB59A4B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D74996C718AC6006A9024E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-UUToolbox_Example";
+			productName = "Pods-UUToolbox_Example";
+			productReference = 27E3B53DE1B919EE7B2F1539 /* Pods_UUToolbox_Example.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BB39B794137A77D26984C0C2 /* Project object */ = {
+		BAF71A99DD1B6CC357D27825 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 8D49A08242A9237A8FFF1ED2 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 19EB99B3EEF547B879CE1EB0 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C9C4EE1C6674A308E7646D00;
-			productRefGroup = 1CC13CE1D637EAA7404E191E /* Products */;
+			mainGroup = DC22B55B2AA4F16321F222EF;
+			productRefGroup = A9E8DF4C0E8D9DD9A53352E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				041A7FACF70A7C2CFD2D0C85 /* Pods-UUToolbox_Example */,
-				68E0341462F4B536A54C3D1B /* Pods-UUToolbox_Example-UUToolbox */,
-				6DCA093301199C5C60C03FA9 /* Pods-UUToolbox_Example-UUToolbox-UUToolbox */,
-				30476C5BEAB6687D8B6B45CF /* Pods-UUToolbox_Tests */,
-				7BE4DE4CD73419B3EBECC03E /* Pods-UUToolbox_Tests-UUToolbox */,
-				827B5A1A72A5E47BAF9881AE /* Pods-UUToolbox_Tests-UUToolbox-UUToolbox */,
+				ED8E9144F17C06B963DD462B /* Pods-UUToolbox_Example */,
+				175F7E029AA49E06AEE2B387 /* Pods-UUToolbox_Example-UUToolbox */,
+				3CB9C0AC9C0DD9737113CB51 /* Pods-UUToolbox_Example-UUToolbox-UUToolbox */,
+				91CF5367CA3063DB5EED51DE /* Pods-UUToolbox_Tests */,
+				5CEDD639AA04CFFFA4FA8F73 /* Pods-UUToolbox_Tests-UUToolbox */,
+				3665F67ED99EE728B2D34AB2 /* Pods-UUToolbox_Tests-UUToolbox-UUToolbox */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		000B80B2887F322EC27A7450 /* Resources */ = {
+		28C74654C45A4EC61554407E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E519BB74B72A9B9C73043CD /* UUToolbox.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5468E38BD09CA763453B25DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		638D9A386F581ACE096E4A96 /* Resources */ = {
+		BAF756A7BFF02303DA5DBB10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				674DDCE07BFD18CD91410A85 /* UUToolbox.bundle in Resources */,
+				93BC6A7DC84519915BD66A99 /* UUToolbox.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		913092EA865D33067A762040 /* Resources */ = {
+		F89BB759DB532A9228AAE78C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFA18E5A53D87F9824D40BB8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D6B6247EC0E54129A059DA7 /* UUToolbox.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		272FB7C59850A08225E5B774 /* Sources */ = {
+		0768F8A719A50104DC717805 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70C5847B9E2438915C6DB79A /* Pods-UUToolbox_Tests-UUToolbox-dummy.m in Sources */,
-				B68AD92504C190E83306906B /* UUActionSheet.m in Sources */,
-				26DA428FE757EF30B9990D8D /* UUAlert.m in Sources */,
-				F10E711400166D3EBC0C2FAF /* UUAwsS3Client.m in Sources */,
-				7C53BF0E3C9C0BCFC78F5545 /* UUCameraView.m in Sources */,
-				697AB2725B16B6F05A188C40 /* UUColor.m in Sources */,
-				BDD59E0377E1EF80EC1C639F /* UUCoreData.m in Sources */,
-				1234B16C8CFDD21A97202C67 /* UUDataCache.m in Sources */,
-				24718ACB74359DD5A9F7D628 /* UUDate.m in Sources */,
-				4B24137803E1D95C50C6C2D1 /* UUDebug.m in Sources */,
-				7BD8FDDCF75BA951E458D3CE /* UUDevice.m in Sources */,
-				702DA3335617782B905B5286 /* UUDictionary.m in Sources */,
-				B20FD328B7F7A1DEB691A216 /* UUDropbox.m in Sources */,
-				EAD3B597CB8CA920648F6670 /* UUFlickr.m in Sources */,
-				2F57C6BE6E08A290C2F96B3D /* UUHttpClient.m in Sources */,
-				057E08CB16BFB61974093B7F /* UUHttpResponseHandler.m in Sources */,
-				02709F4427A7BCDA0AC622ED /* UUHttpSession.m in Sources */,
-				FD0E4D3159A07A34ADBE8EA9 /* UUImage.m in Sources */,
-				841E660C0065934B8D068576 /* UUImageCache.m in Sources */,
-				C2CCB25FCFC5D2DC475848E1 /* UUImageView.m in Sources */,
-				792FB547736D73E795E13288 /* UUInstagram.m in Sources */,
-				F5C4193528B4AC3550133F17 /* UULocation.m in Sources */,
-				9A093976AF5E7815C1E7B749 /* UULocationManager.m in Sources */,
-				9F6C1B79DD294F56B7314573 /* UUMapView.m in Sources */,
-				2F84D3BF5D11CEE141F97B52 /* UUObject.m in Sources */,
-				8A3EE60ED17D27263675F0BD /* UUObjectFactory.m in Sources */,
-				21C7C91145AB1BD1B056CE04 /* UUOpenALSoundManager.m in Sources */,
-				5CA76DE2693B16713EB0F5A3 /* UUProgressView.m in Sources */,
-				7C8767ED953B6E9B972149A1 /* UURandom.m in Sources */,
-				C759465FFFAB5CEB93ED4DBB /* UUReachability.m in Sources */,
-				B40E23DAB781B1B4C53F910C /* UURemoteData.m in Sources */,
-				FD2E9115735D0F6A43602E51 /* UUString.m in Sources */,
-				5ABD820946AA2D8AC19D14B6 /* UUTextField.m in Sources */,
-				63DAAFE4BB03C5333A29189C /* UUVerticalSliderView.m in Sources */,
-				54FE4490C5BA0291A6E3B542 /* UUView.m in Sources */,
+				5A6228769EF6AD389BFFA07E /* Pods-UUToolbox_Example-UUToolbox-dummy.m in Sources */,
+				618ED39386F5CAC8A70A118C /* UUActionSheet.m in Sources */,
+				0EE40F480E7751C26994733B /* UUAlert.m in Sources */,
+				2A62845A75273339C270A315 /* UUAwsS3Client.m in Sources */,
+				F8F999C4EFB36CEA3AA579A2 /* UUCameraView.m in Sources */,
+				965C7730E3C517EC18BB5AFD /* UUColor.m in Sources */,
+				AB68713CD36C383BFEB176E0 /* UUCoreData.m in Sources */,
+				F1891DA96C65B5278AD45A92 /* UUDataCache.m in Sources */,
+				4D62D07F4C6C57FAC7689ED6 /* UUDate.m in Sources */,
+				954B0477CBAF0FE2A9A63188 /* UUDebug.m in Sources */,
+				9734091F6D10084733E5FCB3 /* UUDevice.m in Sources */,
+				5DC82079D52C2A48029CB0BC /* UUDictionary.m in Sources */,
+				DC1EE10E8D8CB50A889338F0 /* UUDropbox.m in Sources */,
+				BC96DA2B95D44BB2FE694092 /* UUFlickr.m in Sources */,
+				60EAF5E145AA4F502AA81B64 /* UUHttpClient.m in Sources */,
+				D84C6E5F862E9B3CB9AD2204 /* UUHttpResponseHandler.m in Sources */,
+				2C08A1DD08F8C178B42F0EA9 /* UUHttpSession.m in Sources */,
+				A828933A758B66246559622C /* UUImage.m in Sources */,
+				8DC2AB80F234F755891EBDDD /* UUImageCache.m in Sources */,
+				9CBF344625A3EEF99BC0D7B9 /* UUImageView.m in Sources */,
+				2F12E34CBE07418860A4154F /* UUInstagram.m in Sources */,
+				D2A539870289EF848C532EC6 /* UULocation.m in Sources */,
+				3EEDA78AF0EC7518BF3ED4F4 /* UULocationManager.m in Sources */,
+				D2142AAC328AF59CF9708E00 /* UUMapView.m in Sources */,
+				F28ABA71C2ECC4A49BA8F0EB /* UUObject.m in Sources */,
+				0E7322D586A5945D92C12157 /* UUObjectFactory.m in Sources */,
+				87F80C488809F739CA5A7C35 /* UUOpenALSoundManager.m in Sources */,
+				7BD959290BEC8145B339053B /* UUProgressView.m in Sources */,
+				EFF8EC40D94286E73E928803 /* UURandom.m in Sources */,
+				2C92A204D70ACD1F12F67F49 /* UUReachability.m in Sources */,
+				8F4CB96546D5A891EA3C14A0 /* UURemoteData.m in Sources */,
+				626963C68C1ECB3AE018A448 /* UUString.m in Sources */,
+				92842C7C93983502953AA29D /* UUTextField.m in Sources */,
+				472BA0C3FB9B2719600DB8A3 /* UUVerticalSliderView.m in Sources */,
+				295868307D1B968953824A1E /* UUView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70DCB2EB3670A3F2E1AD4C72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				093D4C8DC84D3831ECDC5912 /* Pods-UUToolbox_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BC66E348A336FFBED059A68 /* Sources */ = {
+		3DE01A642E046B2CA3AC289F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E47CC83E40BEFFAE561F37B /* Sources */ = {
+		4543206522E61ED6A2FB45E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90BD1306451D92D962696D51 /* Pods-UUToolbox_Example-UUToolbox-dummy.m in Sources */,
-				0BBADCB531E798DBC959B983 /* UUActionSheet.m in Sources */,
-				49BA650A72EAF8829E2F11C5 /* UUAlert.m in Sources */,
-				E30F3A5D2C12AF2C95F0E8D3 /* UUAwsS3Client.m in Sources */,
-				0095F6FC4E7CFD84358DDD4C /* UUCameraView.m in Sources */,
-				AB1013F41F42134EF2663460 /* UUColor.m in Sources */,
-				B6E94F171AEE2CC5A7FDF58B /* UUCoreData.m in Sources */,
-				10C5E59A6879E8726291263E /* UUDataCache.m in Sources */,
-				FF521162D0EDA7ED8F6D2B59 /* UUDate.m in Sources */,
-				5A4CE4C958EB431DBF532C47 /* UUDebug.m in Sources */,
-				B65F24F7F1EBF2F2A1CB3F49 /* UUDevice.m in Sources */,
-				9BD6AEC4D9F8B09D9FEFA246 /* UUDictionary.m in Sources */,
-				885B6231881EEF3EEE84AF0C /* UUDropbox.m in Sources */,
-				C76C9992A0C1998EA4627274 /* UUFlickr.m in Sources */,
-				CC56C6BE512B625FB8F0850E /* UUHttpClient.m in Sources */,
-				FF260C955CC110372863E186 /* UUHttpResponseHandler.m in Sources */,
-				305657BAD4ACD6A5439CF9FA /* UUHttpSession.m in Sources */,
-				C5ED91FF80910CF330747C3D /* UUImage.m in Sources */,
-				053706F0611DA35887F13868 /* UUImageCache.m in Sources */,
-				7AA65F876FB2431789523CA2 /* UUImageView.m in Sources */,
-				1C7F9F787B292D0B54AB21CB /* UUInstagram.m in Sources */,
-				363BF84AA46C21D73EB92B59 /* UULocation.m in Sources */,
-				147DEB4314D2347ECD31CA44 /* UULocationManager.m in Sources */,
-				AD91BC40C03A637E258B9222 /* UUMapView.m in Sources */,
-				DFC4D92F4AC1B59F324A45D3 /* UUObject.m in Sources */,
-				1303D1E8DA7DB53B49B79888 /* UUObjectFactory.m in Sources */,
-				04799DE241F31C539AA8EEE5 /* UUOpenALSoundManager.m in Sources */,
-				757BBA8B6E9485B40E952BDA /* UUProgressView.m in Sources */,
-				B8D34B079BA59BFD8DD278C8 /* UURandom.m in Sources */,
-				2CF98B76057A2247A6D60193 /* UUReachability.m in Sources */,
-				91E4596688C64CCE2A3D1B46 /* UURemoteData.m in Sources */,
-				513CC2E1B93466F13AE6D3F3 /* UUString.m in Sources */,
-				09DEBE6F6F950E73A28AACCE /* UUTextField.m in Sources */,
-				FF3363BBD56B11B39F62154C /* UUVerticalSliderView.m in Sources */,
-				80E9F759EB94E86B37E5308A /* UUView.m in Sources */,
+				FD21D16F8174CD9168F8938A /* Pods-UUToolbox_Tests-UUToolbox-dummy.m in Sources */,
+				A9696BBEE4963A5C03982CBF /* UUActionSheet.m in Sources */,
+				3B447422B89CE03457B5391F /* UUAlert.m in Sources */,
+				57F066F32FB41887D8F45916 /* UUAwsS3Client.m in Sources */,
+				ED45C0EA6BBF9592DAE90487 /* UUCameraView.m in Sources */,
+				EE352AB2D87F41EDAE72BB8D /* UUColor.m in Sources */,
+				43D605792EB400D7546C073F /* UUCoreData.m in Sources */,
+				B4DB7EF45F8373ED1005EDF4 /* UUDataCache.m in Sources */,
+				820592D72F2430D4FBA3BA09 /* UUDate.m in Sources */,
+				3A103732CE0D17E69DE1761E /* UUDebug.m in Sources */,
+				9BE31AAA4ECBD0EDABD997C3 /* UUDevice.m in Sources */,
+				91017CE22E70A38CAFCAE32B /* UUDictionary.m in Sources */,
+				672E0307F42D0D07A3623ACD /* UUDropbox.m in Sources */,
+				E5EA3057A6A35A3684EE1C6A /* UUFlickr.m in Sources */,
+				EE0D22312F083EFA70A3617A /* UUHttpClient.m in Sources */,
+				B794B9F8DDBDFDA04C4F0B87 /* UUHttpResponseHandler.m in Sources */,
+				61B6CAAF79EFF31C9A7C4033 /* UUHttpSession.m in Sources */,
+				DC54ADF4956F7557EF7B2498 /* UUImage.m in Sources */,
+				3D20A1C0A79173F0F973FB86 /* UUImageCache.m in Sources */,
+				35B8AE4C9A2BE449921548BD /* UUImageView.m in Sources */,
+				E5369ED0C702EDB2534DDC5D /* UUInstagram.m in Sources */,
+				FD43072E0265BBC659F6E1C4 /* UULocation.m in Sources */,
+				E8C8AFBB71448A3365B8086B /* UULocationManager.m in Sources */,
+				0FDE9AC91372B27F3894E860 /* UUMapView.m in Sources */,
+				99A95B8193F6DBD17434699A /* UUObject.m in Sources */,
+				4D0CA69DCBE076027439206E /* UUObjectFactory.m in Sources */,
+				BC0715DDE504358EB8B39B7D /* UUOpenALSoundManager.m in Sources */,
+				B4301812BC950A3AA62436DF /* UUProgressView.m in Sources */,
+				7CF299E7500B6C574A4B02B1 /* UURandom.m in Sources */,
+				B0BECA5FEFEA05DE7F630868 /* UUReachability.m in Sources */,
+				B9DDC42FBDF434C4B1B37872 /* UURemoteData.m in Sources */,
+				8889AEE8FB53503E3A6E40D9 /* UUString.m in Sources */,
+				97FC7C9088E33A2026D04587 /* UUTextField.m in Sources */,
+				13BFD2F43472CD3FCD9D853E /* UUVerticalSliderView.m in Sources */,
+				BC8A18AD9EBF6C6E134CE695 /* UUView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3B784C91E00B89B6B256E5F /* Sources */ = {
+		579881738A18840D8660090F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06512A0A0556BE8B58D6300C /* Pods-UUToolbox_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA29C78F754AA2C9E0321864 /* Sources */ = {
+		78680F43A99CDE7105E57A5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF16EE850D932DDB6A97A244 /* Pods-UUToolbox_Example-dummy.m in Sources */,
+				EE3F3C904F05CC22AD3CD17A /* Pods-UUToolbox_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794905243E36B835668A0F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0196C691F0177A55E25E7CE5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-UUToolbox_Tests-UUToolbox";
-			target = 7BE4DE4CD73419B3EBECC03E /* Pods-UUToolbox_Tests-UUToolbox */;
-			targetProxy = B43C27DBE51ABB7E8755D6B1 /* PBXContainerItemProxy */;
-		};
-		6C560D9E7AC881A3F470F918 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-UUToolbox_Tests-UUToolbox-UUToolbox";
-			target = 827B5A1A72A5E47BAF9881AE /* Pods-UUToolbox_Tests-UUToolbox-UUToolbox */;
-			targetProxy = 1C3105E38CB548D6D8EDD0F7 /* PBXContainerItemProxy */;
-		};
-		D7669ED45BA0E11942E4FE33 /* PBXTargetDependency */ = {
+		7D74996C718AC6006A9024E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-UUToolbox_Example-UUToolbox";
-			target = 68E0341462F4B536A54C3D1B /* Pods-UUToolbox_Example-UUToolbox */;
-			targetProxy = 5601ACF418E61190625AC3CD /* PBXContainerItemProxy */;
+			target = 175F7E029AA49E06AEE2B387 /* Pods-UUToolbox_Example-UUToolbox */;
+			targetProxy = 477BA3A17794A2E333FA426F /* PBXContainerItemProxy */;
 		};
-		EC2B267E7A40C01637DF5AD2 /* PBXTargetDependency */ = {
+		940F1A01CDC6502BE791173A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-UUToolbox_Example-UUToolbox-UUToolbox";
-			target = 6DCA093301199C5C60C03FA9 /* Pods-UUToolbox_Example-UUToolbox-UUToolbox */;
-			targetProxy = 0F5276E2A49BDB796D8B411B /* PBXContainerItemProxy */;
+			target = 3CB9C0AC9C0DD9737113CB51 /* Pods-UUToolbox_Example-UUToolbox-UUToolbox */;
+			targetProxy = 5AF2B5A9CAE24C7522D1A741 /* PBXContainerItemProxy */;
+		};
+		EF031AB51CD747E9F55F58EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UUToolbox_Tests-UUToolbox";
+			target = 5CEDD639AA04CFFFA4FA8F73 /* Pods-UUToolbox_Tests-UUToolbox */;
+			targetProxy = 09D78A4CABBF64F36E2F500C /* PBXContainerItemProxy */;
+		};
+		FDC45A31EAD031AE5E4D2446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UUToolbox_Tests-UUToolbox-UUToolbox";
+			target = 3665F67ED99EE728B2D34AB2 /* Pods-UUToolbox_Tests-UUToolbox-UUToolbox */;
+			targetProxy = EF89BEDB7BFBD46D7CF5C2AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1BFC5D550F8F2B8815EA2D22 /* Release */ = {
+		3FC3B133E99E4DF27DD3CED3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9910619F1CF3812B4044C2C9 /* Pods-UUToolbox_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-UUToolbox_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-UUToolbox_Tests/Pods-UUToolbox_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_UUToolbox_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		34665B79D71AD4F042AEE0C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B48AC0C92E2FC09055FD194 /* Pods-UUToolbox_Example.debug.xcconfig */;
+			baseConfigurationReference = 85396CFED0314961FC4D97C7 /* Pods-UUToolbox_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1045,217 +1016,7 @@
 			};
 			name = Debug;
 		};
-		358A0345F253474022AC9614 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6C6CBDFC046CCC579BAD4CE /* Pods-UUToolbox_Example-UUToolbox-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UUToolbox_Example-UUToolbox/Pods-UUToolbox_Example-UUToolbox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-UUToolbox_Example-UUToolbox/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-UUToolbox_Example-UUToolbox/Pods-UUToolbox_Example-UUToolbox.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = UUToolbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3ABE2BB6CD2B042159F357D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6C6CBDFC046CCC579BAD4CE /* Pods-UUToolbox_Example-UUToolbox-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UUToolbox_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = UUToolbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		50723C181538A89B9C56F062 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6C6CBDFC046CCC579BAD4CE /* Pods-UUToolbox_Example-UUToolbox-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UUToolbox_Example-UUToolbox/Pods-UUToolbox_Example-UUToolbox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-UUToolbox_Example-UUToolbox/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-UUToolbox_Example-UUToolbox/Pods-UUToolbox_Example-UUToolbox.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = UUToolbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5E24C7E02A200FFA73A7E4C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A3FF4DE63056312EE908E47 /* Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-UUToolbox_Tests-UUToolbox/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = UUToolbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6030F7E38C151BBD5FC4286C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A3FF4DE63056312EE908E47 /* Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-UUToolbox_Tests-UUToolbox/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = UUToolbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		628D35D86A05167D45CB3854 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A3FF4DE63056312EE908E47 /* Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UUToolbox_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = UUToolbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		757F3B323F7310846DF9EE8C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A3FF4DE63056312EE908E47 /* Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UUToolbox_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = UUToolbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		7EA88E422788BFF59321E6D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A6E1F921098FAE8F1B87B51E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 420517D1D737993B0DC2E5DA /* Pods-UUToolbox_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-UUToolbox_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-UUToolbox_Tests/Pods-UUToolbox_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_UUToolbox_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B332284AD1500EBA1D57CCEC /* Debug */ = {
+		404923B22532806F7E1E5213 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1294,9 +1055,43 @@
 			};
 			name = Debug;
 		};
-		C2C17B84077D2C59CBAE5BAD /* Release */ = {
+		681319F3634299E9D3C14B66 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E793CB13C565D61C1E71A73A /* Pods-UUToolbox_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB1982370418E85CEA04A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409AC1A4FFC74D467E16B8F4 /* Pods-UUToolbox_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1323,9 +1118,36 @@
 			};
 			name = Release;
 		};
-		FCA8FEF648FC7A595B008154 /* Debug */ = {
+		9333025FC75A74FCB9DBD04A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6C6CBDFC046CCC579BAD4CE /* Pods-UUToolbox_Example-UUToolbox-Private.xcconfig */;
+			baseConfigurationReference = FC926D22976412414C3A7ED8 /* Pods-UUToolbox_Example-UUToolbox-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UUToolbox_Example-UUToolbox/Pods-UUToolbox_Example-UUToolbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UUToolbox_Example-UUToolbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UUToolbox_Example-UUToolbox/Pods-UUToolbox_Example-UUToolbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UUToolbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4EE95A0CF3E6638E0481B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC926D22976412414C3A7ED8 /* Pods-UUToolbox_Example-UUToolbox-Private.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UUToolbox_Example";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1336,73 +1158,251 @@
 			};
 			name = Debug;
 		};
+		ABB76CCFF266B2165753CE1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4973C1EF48E4E57CE73DE803 /* Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UUToolbox_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = UUToolbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		ACB764EE621B9F7A5F520163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9166B0A34E959666D67A1EBC /* Pods-UUToolbox_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UUToolbox_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UUToolbox_Tests/Pods-UUToolbox_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UUToolbox_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE39DE1E63542756D4FE00C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4973C1EF48E4E57CE73DE803 /* Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UUToolbox_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = UUToolbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B3508567F890BD43593FD9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4973C1EF48E4E57CE73DE803 /* Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UUToolbox_Tests-UUToolbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UUToolbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B52E9E31412FE630C822A942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4973C1EF48E4E57CE73DE803 /* Pods-UUToolbox_Tests-UUToolbox-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UUToolbox_Tests-UUToolbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UUToolbox_Tests-UUToolbox/Pods-UUToolbox_Tests-UUToolbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UUToolbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9C18D1AD161A2B353CA3B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC926D22976412414C3A7ED8 /* Pods-UUToolbox_Example-UUToolbox-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UUToolbox_Example-UUToolbox/Pods-UUToolbox_Example-UUToolbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UUToolbox_Example-UUToolbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UUToolbox_Example-UUToolbox/Pods-UUToolbox_Example-UUToolbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UUToolbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2A6949F14F53A16567300E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C10D49E75F8917895EA92B /* Pods-UUToolbox_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UUToolbox_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UUToolbox_Tests/Pods-UUToolbox_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UUToolbox_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F813B7CA19C5803C8837047C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC926D22976412414C3A7ED8 /* Pods-UUToolbox_Example-UUToolbox-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UUToolbox_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = UUToolbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29BF310B909BDD107FFDD276 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Example" */ = {
+		139A351AB7DF292A6FB50E78 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Tests-UUToolbox-UUToolbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34665B79D71AD4F042AEE0C9 /* Debug */,
-				C2C17B84077D2C59CBAE5BAD /* Release */,
+				AE39DE1E63542756D4FE00C8 /* Debug */,
+				ABB76CCFF266B2165753CE1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3CD8F03E74F459A92D08BC3A /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Example-UUToolbox" */ = {
+		17E1CA561880FFB52FB9D76F /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Tests-UUToolbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				358A0345F253474022AC9614 /* Debug */,
-				50723C181538A89B9C56F062 /* Release */,
+				B3508567F890BD43593FD9CE /* Debug */,
+				B52E9E31412FE630C822A942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		429C415D7C1A4F8345B87EA1 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Example-UUToolbox-UUToolbox" */ = {
+		19EB99B3EEF547B879CE1EB0 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCA8FEF648FC7A595B008154 /* Debug */,
-				3ABE2BB6CD2B042159F357D7 /* Release */,
+				404923B22532806F7E1E5213 /* Debug */,
+				681319F3634299E9D3C14B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D49A08242A9237A8FFF1ED2 /* Build configuration list for PBXProject "Pods" */ = {
+		277C0E4E4C22D0D72D2ED535 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B332284AD1500EBA1D57CCEC /* Debug */,
-				7EA88E422788BFF59321E6D8 /* Release */,
+				3FC3B133E99E4DF27DD3CED3 /* Debug */,
+				7BB1982370418E85CEA04A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABF13205ED400D0082762D38 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Tests" */ = {
+		4BE3E649F00CAD8B98E7BA40 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Example-UUToolbox-UUToolbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6E1F921098FAE8F1B87B51E /* Debug */,
-				1BFC5D550F8F2B8815EA2D22 /* Release */,
+				A4EE95A0CF3E6638E0481B50 /* Debug */,
+				F813B7CA19C5803C8837047C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8A33F753C7E486981C5BB10 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Tests-UUToolbox-UUToolbox" */ = {
+		5F1A02447C1B0B9CDA836D9C /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				628D35D86A05167D45CB3854 /* Debug */,
-				757F3B323F7310846DF9EE8C /* Release */,
+				F2A6949F14F53A16567300E6 /* Debug */,
+				ACB764EE621B9F7A5F520163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCB97E722B7AFF4F4A685361 /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Tests-UUToolbox" */ = {
+		D9F46FEFEE734417FD2EB2AB /* Build configuration list for PBXNativeTarget "Pods-UUToolbox_Example-UUToolbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6030F7E38C151BBD5FC4286C /* Debug */,
-				5E24C7E02A200FFA73A7E4C1 /* Release */,
+				9333025FC75A74FCB9DBD04A /* Debug */,
+				C9C18D1AD161A2B353CA3B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BB39B794137A77D26984C0C2 /* Project object */;
+	rootObject = BAF71A99DD1B6CC357D27825 /* Project object */;
 }
