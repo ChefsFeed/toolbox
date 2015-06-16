@@ -1,3 +1,6 @@
+# UUToolbox
+
+
 Useful Utilities
 ========================
 Useful Utilities is a toolbox of iOS functions and code that can be pulled in as needed for functions that 
@@ -16,3 +19,33 @@ I love hearing from people. If you end up shipping a product with any of them, I
 @cheesemaker on ADN and Twitter
 
 jon@threejacks.com
+
+
+
+## Usage
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+UUToolbox is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "UUToolbox"
+```
+
+## Author
+
+
+## License
+
+## TODO
+* complete this README.md
+* check the sample app
+* make the dropbox and aws tests pass (may be make a different pod for those two since they have big external dependencies)
+* set the right license and right ownership
+
+

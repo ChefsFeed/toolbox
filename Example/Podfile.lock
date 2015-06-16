@@ -1,0 +1,14 @@
+PODS:
+  - UUToolbox (0.1.0)
+
+DEPENDENCIES:
+  - UUToolbox (from `../`)
+
+EXTERNAL SOURCES:
+  UUToolbox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UUToolbox: ce6f6bafafc39e55da00e90fbceda65df1ea882c
+
+COCOAPODS: 0.37.1
