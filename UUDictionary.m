@@ -27,10 +27,19 @@
     id obj = [self valueForKey:key];
     if (obj && ![obj isKindOfClass:[NSNull class]])
     {
-        if (forClass == nil || [obj isKindOfClass:forClass])
+        if (forClass == nil)    // break these tests apart so they will be done in sequence
         {
             return obj;
         }
+        else if ([obj isKindOfClass:forClass])
+        {
+            return obj;
+        }
+        else if (forClass == [NSString class])
+        {
+            return [NSString stringWithFormat:@"%@", obj];
+        }
+
     }
     
     return defaultValue;
