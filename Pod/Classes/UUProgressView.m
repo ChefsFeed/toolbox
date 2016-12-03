@@ -55,6 +55,10 @@
 
 + (UUProgressView*) globalProgressView
 {
+#if defined(UUTOOLBOX_APP_EXTENSIONS)
+    return nil;
+#else
+    
 	static UUProgressView* theProgressView = nil;
     
 	if (theProgressView == nil)
@@ -67,6 +71,7 @@
     }
     
     return theProgressView;
+#endif
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -107,10 +112,14 @@
 
 - (void) createScrimView
 {
+#if defined(UUTOOLBOX_APP_EXTENSIONS)
+    return;
+#else
 	UIView* parent = [[UIApplication sharedApplication] keyWindow];
 	self.scrimView = UU_AUTORELEASE([[UIView alloc] initWithFrame:parent.frame]);
 	self.backgroundView.backgroundColor = [UIColor clearColor];
 	[parent addSubview:self.scrimView];
+#endif
 }
 
 - (void) createBackgroundView

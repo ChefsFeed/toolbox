@@ -690,7 +690,15 @@ static NSTimeInterval theDefaultHttpTimeout = kUUDefaultHttpTimeout;
 
 + (void) toggleNetworkActivityIndicator:(BOOL)enabled
 {
+    // @selector(sharedApplication) does not exist when building app extensions instead
+    // of apps. With strict objc_msgSend message checking turned on, calls to the class
+    // method will become compile-time warnings. To prevent that from happening, build
+    // with UUTOOLBOX_APP_EXTENSIONS=1.
+#if defined(UUTOOLBOX_APP_EXTENSIONS)
+    return;
+#else
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:enabled];
+#endif
 }
 
 + (void) addToRequestQueue:(id)client
