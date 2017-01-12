@@ -53,7 +53,8 @@
 // arg is 'foobar'
 - (NSDictionary*) uuDictionaryFromQueryString;
 - (NSString*)	  uuFindQueryStringArg:(NSString*)argName;
-- (NSString *)	  uuUrlEncoded;
+- (NSString *)    uuUrlEncodedBody;
+- (NSString *)	  uuUrlEncodedQuery;
 - (NSString *)	  uuUrlDecoded;
 
 @end

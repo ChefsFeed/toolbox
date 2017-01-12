@@ -147,8 +147,8 @@
                     [queryStringArgs appendString:@"&"];
                 }
                 
-				NSString* formattedKey = [key uuUrlEncoded];
-				NSString* formattedValue = [val uuUrlEncoded];
+				NSString* formattedKey = [key uuUrlEncodedQuery];
+				NSString* formattedValue = [val uuUrlEncodedQuery];
                 
                 [queryStringArgs appendFormat:@"%@=%@", formattedKey, formattedValue];
                 ++count;
