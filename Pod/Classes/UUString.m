@@ -282,7 +282,7 @@
 
 - (NSString *) uuUrlEncodedQuery
 {
-	CFStringRef cf = CFURLCreateStringByAddingPercentEscapes(NULL, (CFStringRef)self, NULL, (CFStringRef)@"!*'();:@&=+$,/?%#[]", kCFStringEncodingUTF8);
+	CFStringRef cf = CFURLCreateStringByAddingPercentEscapes(NULL, (CFStringRef)self, NULL, (CFStringRef)@"!*'();:@&=$,/?%#[]", kCFStringEncodingUTF8);
 	if (cf) {
 		NSString* s = UU_NATIVE_CAST(NSString *)cf;
 		return UU_AUTORELEASE(s);
