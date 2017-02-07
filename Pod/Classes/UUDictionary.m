@@ -27,19 +27,10 @@
     id obj = [self valueForKey:key];
     if (obj && ![obj isKindOfClass:[NSNull class]])
     {
-        if (forClass == nil)    // break these tests apart so they will be done in sequence
+        if (forClass == nil || [obj isKindOfClass:forClass])
         {
             return obj;
         }
-        else if ([obj isKindOfClass:forClass])
-        {
-            return obj;
-        }
-        else if (forClass == [NSString class])
-        {
-            return [NSString stringWithFormat:@"%@", obj];
-        }
-
     }
     
     return defaultValue;
@@ -82,7 +73,24 @@
 
 - (NSString*) uuSafeGetString:(NSString*)key defaultValue:(NSString*)defaultValue
 {
-    return [self uuSafeGet:key forClass:[NSString class] defaultValue:defaultValue];
+    id node = [self uuSafeGet:key];
+    
+    if (node)
+    {
+        if ([node isKindOfClass:[NSString class]])
+        {
+            return node;
+        }
+        else if ([node isKindOfClass:[NSNumber class]])
+        {
+            id val = [node stringValue];
+            if(val) {
+                return val;
+            }
+        }
+    }
+    
+    return defaultValue;
 }
 
 - (NSDate*) uuSafeGetDate:(NSString*)key formatter:(NSDateFormatter*)formatter
