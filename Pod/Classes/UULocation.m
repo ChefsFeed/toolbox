@@ -13,6 +13,8 @@
 #pragma mark - UUSystemLocation
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+#ifndef TARGET_OS_TV
+
 @interface UUSystemLocation : NSObject<CLLocationManagerDelegate>
 	+ (UUSystemLocation*) sharedLocation;
 	- (id) init;
@@ -448,3 +450,4 @@
 
 @end
 
+#endif

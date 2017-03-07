@@ -36,19 +36,22 @@
 
 +(NSString*) uuUniqueUserIdentifierFromPasteBoard
 {
+#ifndef TARGET_OS_TV
 	UIPasteboard* pasteBoard = [UIPasteboard pasteboardWithName:UU_UIDEVICE_UNIQUE_IDENTIFIER create:NO];
 	id item = [pasteBoard dataForPasteboardType:UU_UIDEVICE_UNIQUE_IDENTIFIER];
 	if(item)
 		return [NSString stringWithString:[NSKeyedUnarchiver unarchiveObjectWithData:item]];
-
+#endif
 	return nil;
 }
 
 +(void) uuSaveUniqueUserIdentifierToPasteBoard:(NSString*)uniqueID
 {
+#ifndef TARGET_OS_TV
 	UIPasteboard* pasteBoard = [UIPasteboard pasteboardWithName:UU_UIDEVICE_UNIQUE_IDENTIFIER create:YES];
 	[pasteBoard setPersistent:YES];
 	[pasteBoard setData:[NSKeyedArchiver archivedDataWithRootObject:uniqueID] forPasteboardType:UU_UIDEVICE_UNIQUE_IDENTIFIER];
+#endif
 }
 
 + (void) uuSaveUniqueUserIdentifierToUserDefaults:(NSString*)uniqueID

@@ -694,7 +694,7 @@ static NSTimeInterval theDefaultHttpTimeout = kUUDefaultHttpTimeout;
     // of apps. With strict objc_msgSend message checking turned on, calls to the class
     // method will become compile-time warnings. To prevent that from happening, build
     // with UUTOOLBOX_APP_EXTENSIONS=1.
-#if defined(UUTOOLBOX_APP_EXTENSIONS)
+#if defined(UUTOOLBOX_APP_EXTENSIONS) || defined(TARGET_OS_TV)
     return;
 #else
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:enabled];
