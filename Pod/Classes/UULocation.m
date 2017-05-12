@@ -13,9 +13,7 @@
 #pragma mark - UUSystemLocation
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#ifndef TARGET_OS_TV
-
-@interface UUSystemLocation : NSObject<CLLocationManagerDelegate>
+__TVOS_PROHIBITED @interface UUSystemLocation : NSObject<CLLocationManagerDelegate>
 	+ (UUSystemLocation*) sharedLocation;
 	- (id) init;
 
@@ -232,7 +230,7 @@
 
 @implementation UUSystemLocation
 
-+ (UUSystemLocation*) sharedLocation
++ (UUSystemLocation*) sharedLocation __TVOS_PROHIBITED
 {
 	static dispatch_once_t createOnceToken;
     static UUSystemLocation* systemLocation = nil;
@@ -407,7 +405,7 @@
     //[[NSNotificationCenter defaultCenter] postNotificationName:UULocationErrorNotification object:error];
 }
 
-- (void) queryLocationName:(CLLocation*)location
+- (void) queryLocationName:(CLLocation*)location __TVOS_PROHIBITED
 {
     CLGeocoder* geoCoder = [[CLGeocoder alloc] init];
     [geoCoder reverseGeocodeLocation:location completionHandler:^(NSArray* placemarks, NSError* error)
@@ -449,5 +447,3 @@
 }
 
 @end
-
-#endif

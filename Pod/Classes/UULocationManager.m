@@ -23,8 +23,6 @@
 	#define UU_BLOCK_COPY(x)    Block_copy(x)
 #endif
 
-#ifndef TARGET_OS_TV
-
 NSString * const UULocationChangedNotification = @"UULocationChangedNotification";
 NSString * const UULocationNameChangedNotification = @"UULocationNameChangedNotification";
 NSString * const UULocationAuthChangedNotification = @"UULocationAuthChangedNotification";
@@ -39,7 +37,7 @@ NSString * const UULocationErrorNotification = @"UULocationErrorNotification";
     @property (nonatomic, retain) NSTimer* notificationTimer;
 @end
 
-static UULocationManager* theLocationManager = nil;
+__TVOS_PROHIBITED static UULocationManager* theLocationManager = nil;
 
 @implementation UULocationManager
 
@@ -215,5 +213,3 @@ static UULocationManager* theLocationManager = nil;
 }
 
 @end
-
-#endif

@@ -16,7 +16,7 @@ extern NSString * const UULocationNameChangedNotification;
 extern NSString * const UULocationAuthChangedNotification;
 extern NSString * const UULocationErrorNotification;
 
-@interface UULocationManager : NSObject<CLLocationManagerDelegate>
+__TVOS_PROHIBITED @interface UULocationManager : NSObject<CLLocationManagerDelegate>
 
 
 //Call startTracking to begin location services. If you do not explicitly call startTracking,

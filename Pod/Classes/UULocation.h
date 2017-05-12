@@ -11,7 +11,7 @@
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
 
-@interface UULocation : NSObject
+__TVOS_PROHIBITED @interface UULocation : NSObject
 	//The last reported location. If no location reported, this will be nil
 	+ (UULocation*) lastReportedLocation;
 
@@ -24,7 +24,7 @@
 @end
 
 
-@protocol UULocationMonitoringDelegate <NSObject>
+__TVOS_PROHIBITED @protocol UULocationMonitoringDelegate <NSObject>
 	@optional
 		- (void) uuLocationChanged:(UULocation*)newLocation;
 		- (void) uuLocationResolved:(UULocation*)resolvedLocation;
@@ -32,13 +32,13 @@
 @end
 
 
-@interface UULocationMonitoring : NSObject
+__TVOS_PROHIBITED @interface UULocationMonitoring : NSObject
 	+ (void) addDelegate:(NSObject<UULocationMonitoringDelegate>*)delegate;
 	+ (void) removeDelegate:(NSObject<UULocationMonitoringDelegate>*)delegate;
 @end
 
 
-@interface UULocationMonitoringConfiguration : NSObject
+__TVOS_PROHIBITED @interface UULocationMonitoringConfiguration : NSObject
 
 	//Global settings interface.
 	+ (BOOL) isAuthorizedToTrack;
