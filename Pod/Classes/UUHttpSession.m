@@ -222,6 +222,7 @@ const NSTimeInterval kUUDefaultHttpRequestTimeout = 60.0f;
     {
         self.sessionConfiguration = [NSURLSessionConfiguration defaultSessionConfiguration];
         self.sessionConfiguration.timeoutIntervalForRequest = kUUDefaultHttpRequestTimeout;
+        self.sessionConfiguration.requestCachePolicy = NSURLRequestReloadIgnoringLocalCacheData;
         
         self.urlSession = [NSURLSession sessionWithConfiguration:self.sessionConfiguration];// delegate:self delegateQueue:nil];
         
