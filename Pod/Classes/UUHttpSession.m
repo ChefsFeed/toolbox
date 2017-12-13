@@ -317,6 +317,7 @@ const NSTimeInterval kUUDefaultHttpRequestTimeout = 60.0f;
             [d setValue:@(httpResponseCode) forKey:kUUHttpSessionHttpErrorCodeKey];
             [d setValue:[NSHTTPURLResponse localizedStringForStatusCode:httpResponseCode] forKey:kUUHttpSessionHttpErrorMessageKey];
             [d setValue:parsedResponse forKey:kUUHttpSessionAppResponseKey];
+            [d setValue:request.url forKey:NSURLErrorFailingURLStringErrorKey];
             
             err = [NSError errorWithDomain:kUUHttpSessionErrorDomain code:UUHttpSessionErrorHttpError userInfo:d];
         }
