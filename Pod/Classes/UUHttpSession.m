@@ -9,15 +9,6 @@
 #import "UUHttpSession.h"
 #import "UUDictionary.h"
 
-//If you want to provide your own logging mechanism, define UUDebugLog in your .pch
-#ifndef UUDebugLog
-#ifdef DEBUG
-#define UUDebugLog(fmt, ...) NSLog(fmt, ##__VA_ARGS__)
-#else
-#define UUDebugLog(fmt, ...)
-#endif
-#endif
-
 NSString * const kUUHttpSessionErrorDomain           = @"kUUHttpSessionErrorDomain";
 NSString * const kUUHttpSessionHttpErrorCodeKey      = @"kUUHttpSessionHttpErrorCodeKey";
 NSString * const kUUHttpSessionHttpErrorMessageKey   = @"kUUHttpSessionHttpErrorMessageKey";
@@ -262,8 +253,6 @@ const NSTimeInterval kUUDefaultHttpRequestTimeout = 60.0f;
 {
     request.httpRequest = [[self class] buildRequest:request];
     
-    UUDebugLog(@"Begin Request\n\nMethod: %@\nURL: %@\nHeaders:\n%@\n\n", request.httpRequest.HTTPMethod, request.httpRequest.URL, request.httpRequest.allHTTPHeaderFields);
-    
     NSURLSessionTask* task = [self.urlSession dataTaskWithRequest:request.httpRequest
                                                 completionHandler:^(NSData *data, NSURLResponse *response, NSError *error)
     {
@@ -342,9 +331,7 @@ const NSTimeInterval kUUDefaultHttpRequestTimeout = 60.0f;
     NSURLRequest* httpRequest = request.httpRequest;
     
     NSString* mimeType = httpResponse.MIMEType;
-    
-    UUDebugLog(@"Handle Response\n\nMethod: %@\nURL: %@\nMIMEType: %@\nRaw Response:\n\n%@\n\n", request.httpRequest.HTTPMethod, request.httpRequest.URL, mimeType, [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
-    
+        
     NSObject<UUHttpResponseHandler>* handler = [self.responseHandlers objectForKey:mimeType];
     if (handler)
     {
