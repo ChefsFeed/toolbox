@@ -2,16 +2,13 @@
 //  UUHttpSession.m
 //  Useful Utilities - Lightweight Objective C HTTP Client
 //
-//	License:
+//    License:
 //  You are free to use this code for whatever purposes you desire. The only requirement is that you smile everytime you use it.
 //
 
 #import "UUHttpSession.h"
 #import "UUDictionary.h"
 
-NSString * const kUUHttpSessionErrorDomain           = @"kUUHttpSessionErrorDomain";
-NSString * const kUUHttpSessionHttpErrorCodeKey      = @"kUUHttpSessionHttpErrorCodeKey";
-NSString * const kUUHttpSessionHttpErrorMessageKey   = @"kUUHttpSessionHttpErrorMessageKey";
 NSString * const kUUHttpSessionAppResponseKey        = @"kUUHttpSessionAppResponseKey";
 
 const NSTimeInterval kUUDefaultHttpRequestTimeout = 60.0f;
@@ -34,7 +31,7 @@ const NSTimeInterval kUUDefaultHttpRequestTimeout = 60.0f;
     {
         self.url = url;
         self.httpMethod = UUHttpMethodGet;
-		self.processMimeTypes = YES;
+        self.processMimeTypes = YES;
     }
     
     return self;
@@ -139,12 +136,12 @@ const NSTimeInterval kUUDefaultHttpRequestTimeout = 60.0f;
 
 - (NSString *)description
 {
-	return [NSString stringWithFormat:@"UUHTTP Response:\r%@\r\rError:\r%@", self.httpResponse, self.httpError];
+    return [NSString stringWithFormat:@"UUHTTP Response:\r%@\r\rError:\r%@", self.httpResponse, self.httpError];
 }
 
 - (NSString *)debugDescription
 {
-	return [NSString stringWithFormat:@"*****UUHTTP Response*****\r%@\r\r*****Error*****\r%@\r\r*****Original Request*****\r%@", self.httpResponse, self.httpError, self.httpRequest];
+    return [NSString stringWithFormat:@"*****UUHTTP Response*****\r%@\r\r*****Error*****\r%@\r\r*****Original Request*****\r%@", self.httpResponse, self.httpError, self.httpRequest];
 }
 
 
@@ -178,15 +175,15 @@ const NSTimeInterval kUUDefaultHttpRequestTimeout = 60.0f;
 
 + (instancetype) sharedInstance
 {
-	static id theSharedObject = nil;
-	static dispatch_once_t onceToken;
+    static id theSharedObject = nil;
+    static dispatch_once_t onceToken;
     
     dispatch_once (&onceToken, ^
-    {
-        theSharedObject = [[[self class] alloc] init];
-    });
-	
-	return theSharedObject;
+                   {
+                       theSharedObject = [[[self class] alloc] init];
+                   });
+    
+    return theSharedObject;
 }
 
 - (void) installDefaultResponseHandlers
@@ -255,9 +252,9 @@ const NSTimeInterval kUUDefaultHttpRequestTimeout = 60.0f;
     
     NSURLSessionTask* task = [self.urlSession dataTaskWithRequest:request.httpRequest
                                                 completionHandler:^(NSData *data, NSURLResponse *response, NSError *error)
-    {
-        [self handleResponse:request data:data response:response error:error completion:completionHandler];
-    }];
+                              {
+                                  [self handleResponse:request data:data response:response error:error completion:completionHandler];
+                              }];
     
     
     [self.activeTasks addObject:task];
@@ -278,41 +275,29 @@ const NSTimeInterval kUUDefaultHttpRequestTimeout = 60.0f;
     uuResponse.httpRequest = request.httpRequest;
     uuResponse.rawResponse = data;
     
-    NSError* err = nil;
     id parsedResponse = nil;
     
     NSInteger httpResponseCode = httpResponse.statusCode;
     
-    if (error)
-    {
-        NSDictionary* userInfo = @{ NSUnderlyingErrorKey : error };
-        err = [NSError errorWithDomain:kUUHttpSessionErrorDomain code:UUHttpSessionErrorHttpFailure userInfo:userInfo];
-    }
-    else
+    if (!error)
     {
         if (request.processMimeTypes)
         {
             parsedResponse = [self parseResponse:request httpResponse:httpResponse data:data];
-            if ([parsedResponse isKindOfClass:[NSError class]])
-            {
-                err = parsedResponse;
-                parsedResponse = nil;
-            }
         }
-		
+        
         if (![self isHttpSuccessResponseCode:httpResponseCode])
         {
-            NSMutableDictionary* d = [NSMutableDictionary dictionary];
-            [d setValue:@(httpResponseCode) forKey:kUUHttpSessionHttpErrorCodeKey];
-            [d setValue:[NSHTTPURLResponse localizedStringForStatusCode:httpResponseCode] forKey:kUUHttpSessionHttpErrorMessageKey];
-            [d setValue:parsedResponse forKey:kUUHttpSessionAppResponseKey];
-            [d setValue:request.url forKey:NSURLErrorFailingURLStringErrorKey];
+            NSMutableDictionary* userInfo = [NSMutableDictionary dictionary];
+            [userInfo setValue:[NSHTTPURLResponse localizedStringForStatusCode:httpResponseCode] forKey:NSURLErrorFailingURLStringErrorKey];
+            [userInfo setValue:parsedResponse forKey:kUUHttpSessionAppResponseKey];
+            [userInfo setValue:request.url forKey:NSURLErrorFailingURLStringErrorKey];
             
-            err = [NSError errorWithDomain:kUUHttpSessionErrorDomain code:UUHttpSessionErrorHttpError userInfo:d];
+            error = [NSError errorWithDomain:NSURLErrorDomain code:httpResponseCode userInfo:userInfo];
         }
     }
     
-    uuResponse.httpError = err;
+    uuResponse.httpError = error;
     uuResponse.parsedResponse = parsedResponse;
     
     if (completion)
@@ -331,7 +316,7 @@ const NSTimeInterval kUUDefaultHttpRequestTimeout = 60.0f;
     NSURLRequest* httpRequest = request.httpRequest;
     
     NSString* mimeType = httpResponse.MIMEType;
-        
+    
     NSObject<UUHttpResponseHandler>* handler = [self.responseHandlers objectForKey:mimeType];
     if (handler)
     {
@@ -339,7 +324,7 @@ const NSTimeInterval kUUDefaultHttpRequestTimeout = 60.0f;
         return parsedResponse;
     }
     
-	return nil;
+    return nil;
 }
 
 + (void) setRequestTimeout:(NSTimeInterval)requestTimeout
