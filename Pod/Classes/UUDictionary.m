@@ -53,8 +53,7 @@
         }
         else if ([node isKindOfClass:[NSString class]])
         {
-            NSNumberFormatter* f = [[NSNumberFormatter alloc] init];
-            [f setNumberStyle:NSNumberFormatterDecimalStyle];
+            NSNumberFormatter* f = [self.class uuSharedDecimalNumberFormatter];
             id val = [f numberFromString:node];
             if (val)
             {
@@ -64,6 +63,16 @@
     }
     
     return defaultValue;
+}
+
++ (NSNumberFormatter*)uuSharedDecimalNumberFormatter {
+    static dispatch_once_t onceToken;
+    static NSNumberFormatter* numberFormatter = nil;
+    dispatch_once(&onceToken, ^{
+        numberFormatter = [[NSNumberFormatter alloc] init];
+        [numberFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    });
+    return numberFormatter;
 }
 
 - (NSString*) uuSafeGetString:(NSString*)key
