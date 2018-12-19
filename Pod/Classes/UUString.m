@@ -16,21 +16,21 @@
 
 //If you want to impement your own UU_RELEASE and UU_AUTORELEASE mechanisms in your .pch, you may do so, just remember to define UU_MEMORY_MANAGEMENT
 #if __has_feature(objc_arc)
-#define UU_RELEASE(x)                (void)(0)
-#define UU_RETAIN(x)                x
-#define UU_AUTORELEASE(x)            x
-#define UU_BLOCK_RELEASE(x)         (void)(0)
-#define UU_BLOCK_COPY(x)            [x copy]
-#define UU_NATIVE_CAST(x)            (__bridge x)
-#define UU_NATIVE_TRANSFER_CAST(x)  (__bridge_transfer x)
+    #define UU_RELEASE(x)               (void)(0)
+    #define UU_RETAIN(x)                x
+    #define UU_AUTORELEASE(x)           x
+    #define UU_BLOCK_RELEASE(x)         (void)(0)
+    #define UU_BLOCK_COPY(x)            [x copy]
+    #define UU_NATIVE_CAST(x)           (__bridge x)
+    #define UU_NATIVE_TRANSFER_CAST(x)  (__bridge_transfer x)
 #else
-#define UU_RELEASE(x)                [x release]
-#define UU_RETAIN(x)                [x retain]
-#define UU_AUTORELEASE(x)            [(x) autorelease]
-#define UU_BLOCK_RELEASE(x)         Block_release(x)
-#define UU_BLOCK_COPY(x)            Block_copy(x)
-#define UU_NATIVE_CAST(x)            (x)
-#define UU_NATIVE_TRANSFER_CAST(x)  (x)
+    #define UU_RELEASE(x)               [x release]
+    #define UU_RETAIN(x)                [x retain]
+    #define UU_AUTORELEASE(x)           [(x) autorelease]
+    #define UU_BLOCK_RELEASE(x)         Block_release(x)
+    #define UU_BLOCK_COPY(x)            Block_copy(x)
+    #define UU_NATIVE_CAST(x)           (x)
+    #define UU_NATIVE_TRANSFER_CAST(x)  (x)
 #endif
 
 @implementation NSString (UUStringTwiddling)
